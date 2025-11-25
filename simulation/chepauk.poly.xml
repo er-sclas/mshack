@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- University of Madras region -->
+    <poly id="university" type="university" color="0,100,0,100" fill="1" layer="0"
+          shape="-250,0 -250,550 50,550 50,0 -250,0"/>
+
+    <!-- M.A. Chidambaram Stadium region -->
+    <poly id="stadium" type="stadium" color="100,0,0,100" fill="1" layer="0"
+          shape="300,50 300,450 650,450 650,50 300,50"/>
+
+    <!-- Main junction region (Anna Salai / Wallajah intersection) -->
+    <poly id="busy_junction" type="junction" color="0,0,100,100" fill="1" layer="0"
+          shape="100,150 100,350 300,350 300,150 100,150"/>
+
+    <!-- POI markers -->
+    <poi id="poi_university_main_gate" type="gate" color="0,200,0" layer="10" x="0" y="250"/>
+    <poi id="poi_stadium_main_entrance" type="entrance" color="200,0,0" layer="10" x="400" y="250"/>
+    <poi id="poi_main_junction" type="junction" color="0,0,200" layer="10" x="200" y="250"/>
+
+    <!-- Additional landmarks -->
+    <poi id="poi_senate_house" type="landmark" color="0,150,0" layer="10" x="-100" y="300"/>
+    <poi id="poi_chepauk_palace" type="landmark" color="150,100,0" layer="10" x="100" y="400"/>
+</additional>

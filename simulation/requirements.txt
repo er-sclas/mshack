@@ -1,0 +1,14 @@
+# Simulation Requirements
+
+# SUMO TraCI interface (included with SUMO installation)
+# Make sure SUMO_HOME is set properly
+
+# For network generation
+requests>=2.31.0
+
+# For Firestore integration (shared with backend)
+google-cloud-firestore>=2.13.0
+google-auth>=2.23.0
+
+# Optional: For data export
+numpy>=1.24.0

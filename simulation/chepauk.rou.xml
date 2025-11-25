@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <!-- Vehicle types -->
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="4.5" maxSpeed="50" guiShape="passenger"/>
+    <vType id="bus" accel="1.2" decel="4.0" sigma="0.5" length="12" maxSpeed="30" guiShape="bus"/>
+    <vType id="motorcycle" accel="4.0" decel="5.0" sigma="0.5" length="2.2" maxSpeed="40" guiShape="motorcycle"/>
+    <vType id="auto" accel="2.0" decel="4.0" sigma="0.5" length="3.5" maxSpeed="35" guiShape="passenger/sedan"/>
+
+    <!-- ============================================== -->
+    <!-- DEFINED ROUTES (edges must be connected) -->
+    <!-- ============================================== -->
+
+    <!-- Anna Salai North-South route -->
+    <route id="route_anna_ns" edges="anna_salai_nb anna_salai_nb2"/>
+    <route id="route_anna_sn" edges="anna_salai_sb anna_salai_sb2"/>
+
+    <!-- Wallajah East-West route -->
+    <route id="route_wallajah_ew" edges="wallajah_eb wallajah_eb2"/>
+    <route id="route_wallajah_we" edges="wallajah_wb wallajah_wb2"/>
+
+    <!-- Kamarajar routes -->
+    <route id="route_kamarajar_ns" edges="kamarajar_nb kamarajar_nb2"/>
+    <route id="route_kamarajar_sn" edges="kamarajar_sb kamarajar_sb2"/>
+
+    <!-- University routes -->
+    <route id="route_to_uni" edges="anna_salai_nb uni_entrance_in uni_to_east"/>
+    <route id="route_from_uni" edges="uni_from_east uni_entrance_out anna_salai_sb2"/>
+
+    <!-- Stadium routes -->
+    <route id="route_to_stadium" edges="anna_salai_nb anna_salai_nb2 stadium_approach_n stadium_internal"/>
+    <route id="route_from_stadium" edges="stadium_internal_rev stadium_approach_n_rev anna_salai_sb anna_salai_sb2"/>
+
+    <!-- Cross traffic -->
+    <route id="route_cross_ne" edges="anna_salai_nb wallajah_eb2"/>
+    <route id="route_cross_sw" edges="anna_salai_sb wallajah_wb2"/>
+
+    <!-- ============================================== -->
+    <!-- BACKGROUND THROUGH TRAFFIC (Starts immediately) -->
+    <!-- ============================================== -->
+
+    <!-- Anna Salai main traffic - high volume -->
+    <flow id="flow_anna_ns" type="car" route="route_anna_ns"
+          begin="0" end="7200" vehsPerHour="800" departLane="best"/>
+
+    <flow id="flow_anna_sn" type="car" route="route_anna_sn"
+          begin="0" end="7200" vehsPerHour="800" departLane="best"/>
+
+    <!-- Wallajah Road traffic -->
+    <flow id="flow_wallajah_ew" type="car" route="route_wallajah_ew"
+          begin="0" end="7200" vehsPerHour="500" departLane="best"/>
+
+    <flow id="flow_wallajah_we" type="car" route="route_wallajah_we"
+          begin="0" end="7200" vehsPerHour="500" departLane="best"/>
+
+    <!-- Motorcycles on Anna Salai -->
+    <flow id="flow_moto_ns" type="motorcycle" route="route_anna_ns"
+          begin="0" end="7200" vehsPerHour="400" departLane="best"/>
+
+    <flow id="flow_moto_sn" type="motorcycle" route="route_anna_sn"
+          begin="0" end="7200" vehsPerHour="400" departLane="best"/>
+
+    <!-- Cross traffic -->
+    <flow id="flow_cross_1" type="car" route="route_cross_ne"
+          begin="0" end="7200" vehsPerHour="200" departLane="best"/>
+
+    <flow id="flow_cross_2" type="car" route="route_cross_sw"
+          begin="0" end="7200" vehsPerHour="200" departLane="best"/>
+
+    <!-- Kamarajar Salai -->
+    <flow id="flow_kamarajar_ns" type="car" route="route_kamarajar_ns"
+          begin="0" end="7200" vehsPerHour="300" departLane="best"/>
+
+    <flow id="flow_kamarajar_sn" type="car" route="route_kamarajar_sn"
+          begin="0" end="7200" vehsPerHour="300" departLane="best"/>
+
+    <!-- ============================================== -->
+    <!-- UNIVERSITY TRAFFIC (Rush hours) -->
+    <!-- ============================================== -->
+
+    <!-- Morning inflow 30min - 90min into simulation -->
+    <flow id="flow_uni_morning" type="car" route="route_to_uni"
+          begin="1800" end="5400" vehsPerHour="400" departLane="best"/>
+
+    <!-- Evening outflow 90min - 120min -->
+    <flow id="flow_uni_evening" type="car" route="route_from_uni"
+          begin="5400" end="7200" vehsPerHour="350" departLane="best"/>
+
+    <!-- ============================================== -->
+    <!-- STADIUM TRAFFIC (Event scenario) -->
+    <!-- ============================================== -->
+
+    <!-- Pre-event inflow 60min - 90min -->
+    <flow id="flow_stadium_in" type="car" route="route_to_stadium"
+          begin="3600" end="5400" vehsPerHour="600" departLane="best"/>
+
+    <!-- Post-event outflow 90min - 120min -->
+    <flow id="flow_stadium_out" type="car" route="route_from_stadium"
+          begin="5400" end="7200" vehsPerHour="800" departLane="best"/>
+
+    <!-- ============================================== -->
+    <!-- BUSES -->
+    <!-- ============================================== -->
+
+    <flow id="flow_bus_ns" type="bus" route="route_anna_ns"
+          begin="0" end="7200" vehsPerHour="30" departLane="best"/>
+
+    <flow id="flow_bus_sn" type="bus" route="route_anna_sn"
+          begin="0" end="7200" vehsPerHour="30" departLane="best"/>
+
+</routes>

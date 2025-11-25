@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-25T01:29:13.905301+05:30 by Eclipse SUMO netconvert 680d51dc7
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="chepauk.nod.xml"/>
+        <edge-files value="chepauk.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="chepauk.net.xml"/>
+    </output>
+
+    <tls_building>
+        <tls.guess value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="300.00,100.00" convBoundary="0.00,0.00,1000.00,700.00" origBoundary="-300.00,-100.00,700.00,600.00" projParameter="!"/>
+
+    <edge id=":junction_east_0" function="internal">
+        <lane id=":junction_east_0_0" index="0" speed="8.50" length="29.82" shape="977.90,333.58 983.39,339.18 984.00,346.22 980.30,352.25 972.89,354.80"/>
+        <lane id=":junction_east_0_1" index="1" speed="7.27" length="21.30" shape="976.47,336.44 980.39,340.44 980.82,345.47 978.19,349.78 972.89,351.60"/>
+    </edge>
+    <edge id=":junction_east_2" function="internal">
+        <lane id=":junction_east_2_0" index="0" speed="4.62" length="7.45" shape="972.89,345.20 975.48,345.01 976.46,344.44 975.83,343.50 973.60,342.17"/>
+        <lane id=":junction_east_2_1" index="1" speed="7.44" length="22.36" shape="972.89,348.40 980.65,347.83 983.59,346.13 981.72,343.29 975.04,339.31"/>
+    </edge>
+    <edge id=":junction_main_0" function="internal">
+        <lane id=":junction_main_0_0" index="0" speed="6.51" length="9.03" shape="492.00,360.40 491.65,357.95 490.60,356.20 488.85,355.15 486.40,354.80"/>
+    </edge>
+    <edge id=":junction_main_1" function="internal">
+        <lane id=":junction_main_1_0" index="0" speed="13.89" length="29.68" shape="492.00,360.40 492.00,330.80"/>
+        <lane id=":junction_main_1_1" index="1" speed="13.89" length="29.68" shape="495.20,360.40 495.20,330.80"/>
+        <lane id=":junction_main_1_2" index="2" speed="13.89" length="29.68" shape="495.20,360.40 495.70,351.59 496.80,345.60 497.90,339.61 498.40,330.80"/>
+    </edge>
+    <edge id=":junction_main_4" function="internal">
+        <lane id=":junction_main_4_0" index="0" speed="12.50" length="9.39" shape="495.20,360.40 496.60,355.50 499.09,352.01"/>
+    </edge>
+    <edge id=":junction_main_5" function="internal">
+        <lane id=":junction_main_5_0" index="0" speed="11.49" length="2.60" shape="498.40,360.40 499.14,357.90"/>
+    </edge>
+    <edge id=":junction_main_6" function="internal">
+        <lane id=":junction_main_6_0" index="0" speed="6.76" length="15.73" shape="498.40,360.40 498.83,355.83 499.96,350.73 501.56,347.02 503.39,346.60"/>
+    </edge>
+    <edge id=":junction_main_7" function="internal">
+        <lane id=":junction_main_7_0" index="0" speed="3.65" length="1.44" shape="498.40,360.40 499.20,359.20"/>
+    </edge>
+    <edge id=":junction_main_44" function="internal">
+        <lane id=":junction_main_44_0" index="0" speed="12.50" length="25.37" shape="499.09,352.01 500.80,349.60 507.80,342.70 517.60,334.80"/>
+    </edge>
+    <edge id=":junction_main_45" function="internal">
+        <lane id=":junction_main_45_0" index="0" speed="11.49" length="27.79" shape="499.14,357.90 499.95,355.15 504.60,351.40 512.35,349.15 523.20,348.40"/>
+    </edge>
+    <edge id=":junction_main_46" function="internal">
+        <lane id=":junction_main_46_0" index="0" speed="3.65" length="3.23" shape="499.20,359.20 500.00,358.80 500.80,359.20 501.60,360.40"/>
+    </edge>
+    <edge id=":junction_main_8" function="internal">
+        <lane id=":junction_main_8_0" index="0" speed="7.79" length="21.44" shape="523.20,354.80 503.39,346.60"/>
+    </edge>
+    <edge id=":junction_main_9" function="internal">
+        <lane id=":junction_main_9_0" index="0" speed="8.83" length="17.50" shape="523.20,354.80 516.55,355.15 511.80,356.20 508.95,357.95 508.00,360.40"/>
+    </edge>
+    <edge id=":junction_main_10" function="internal">
+        <lane id=":junction_main_10_0" index="0" speed="11.11" length="36.80" shape="523.20,354.80 486.40,354.80"/>
+        <lane id=":junction_main_10_1" index="1" speed="11.11" length="36.80" shape="523.20,351.60 486.40,351.60"/>
+    </edge>
+    <edge id=":junction_main_12" function="internal">
+        <lane id=":junction_main_12_0" index="0" speed="12.50" length="5.94" shape="523.20,351.60 517.30,350.89"/>
+    </edge>
+    <edge id=":junction_main_13" function="internal">
+        <lane id=":junction_main_13_0" index="0" speed="7.93" length="2.62" shape="523.20,351.60 520.68,350.86"/>
+    </edge>
+    <edge id=":junction_main_14" function="internal">
+        <lane id=":junction_main_14_0" index="0" speed="3.65" length="1.44" shape="523.20,351.60 522.00,350.80"/>
+    </edge>
+    <edge id=":junction_main_47" function="internal">
+        <lane id=":junction_main_47_0" index="0" speed="12.50" length="30.89" shape="517.30,350.89 512.35,350.30 504.60,346.40 499.95,339.90 498.40,330.80"/>
+    </edge>
+    <edge id=":junction_main_48" function="internal">
+        <lane id=":junction_main_48_0" index="0" speed="7.93" length="21.15" shape="520.68,350.86 517.07,349.81 513.76,345.41 513.77,339.92 517.60,334.80"/>
+    </edge>
+    <edge id=":junction_main_49" function="internal">
+        <lane id=":junction_main_49_0" index="0" speed="3.65" length="3.23" shape="522.00,350.80 521.60,350.00 522.00,349.20 523.20,348.40"/>
+    </edge>
+    <edge id=":junction_main_15" function="internal">
+        <lane id=":junction_main_15_0" index="0" speed="5.46" length="10.33" shape="521.44,339.92 518.91,342.23 518.36,343.88 519.79,344.87 523.20,345.20"/>
+    </edge>
+    <edge id=":junction_main_16" function="internal">
+        <lane id=":junction_main_16_0" index="0" speed="9.41" length="22.20" shape="521.44,339.92 501.12,348.86"/>
+    </edge>
+    <edge id=":junction_main_17" function="internal">
+        <lane id=":junction_main_17_0" index="0" speed="12.50" length="25.34" shape="521.44,339.92 515.56,344.98 511.36,350.08 508.84,355.22 508.00,360.40"/>
+    </edge>
+    <edge id=":junction_main_18" function="internal">
+        <lane id=":junction_main_18_0" index="0" speed="11.11" length="37.47" shape="521.44,339.92 514.00,344.78 504.67,349.61 494.97,353.32 486.40,354.80"/>
+        <lane id=":junction_main_18_1" index="1" speed="11.11" length="37.47" shape="519.52,337.36 512.38,342.12 503.71,346.73 494.67,350.22 486.40,351.60"/>
+    </edge>
+    <edge id=":junction_main_20" function="internal">
+        <lane id=":junction_main_20_0" index="0" speed="9.23" length="4.04" shape="519.52,337.36 515.92,339.20"/>
+    </edge>
+    <edge id=":junction_main_21" function="internal">
+        <lane id=":junction_main_21_0" index="0" speed="3.65" length="1.44" shape="519.52,337.36 518.08,337.44"/>
+    </edge>
+    <edge id=":junction_main_50" function="internal">
+        <lane id=":junction_main_50_0" index="0" speed="9.23" length="24.64" shape="515.92,339.20 512.07,341.17 505.27,341.45 500.32,338.04 498.40,330.80"/>
+    </edge>
+    <edge id=":junction_main_51" function="internal">
+        <lane id=":junction_main_51_0" index="0" speed="3.65" length="3.23" shape="518.08,337.44 517.28,337.04 517.12,336.16 517.60,334.80"/>
+    </edge>
+    <edge id=":junction_main_22" function="internal">
+        <lane id=":junction_main_22_0" index="0" speed="5.97" length="11.07" shape="508.00,330.80 508.48,333.59 509.92,334.76 512.32,334.31 515.68,332.24"/>
+    </edge>
+    <edge id=":junction_main_23" function="internal">
+        <lane id=":junction_main_23_0" index="0" speed="10.23" length="23.87" shape="508.00,330.80 508.95,337.10 511.80,341.60 516.55,344.30 523.20,345.20"/>
+    </edge>
+    <edge id=":junction_main_24" function="internal">
+        <lane id=":junction_main_24_0" index="0" speed="11.11" length="16.46" shape="508.00,330.80 503.39,346.60"/>
+        <lane id=":junction_main_24_1" index="1" speed="11.11" length="18.43" shape="504.80,330.80 501.12,348.86"/>
+    </edge>
+    <edge id=":junction_main_26" function="internal">
+        <lane id=":junction_main_26_0" index="0" speed="13.89" length="29.75" shape="504.80,330.80 505.30,339.61 506.40,345.60 507.50,351.59 508.00,360.40"/>
+        <lane id=":junction_main_26_1" index="1" speed="13.89" length="29.75" shape="501.60,330.80 502.10,339.61 503.20,345.60 504.30,351.59 504.80,360.40"/>
+        <lane id=":junction_main_26_2" index="2" speed="13.89" length="29.75" shape="501.60,330.80 501.60,360.40"/>
+    </edge>
+    <edge id=":junction_main_29" function="internal">
+        <lane id=":junction_main_29_0" index="0" speed="11.27" length="10.09" shape="501.60,330.80 500.65,339.90 500.27,340.76"/>
+    </edge>
+    <edge id=":junction_main_30" function="internal">
+        <lane id=":junction_main_30_0" index="0" speed="3.65" length="1.44" shape="501.60,330.80 500.80,332.00"/>
+    </edge>
+    <edge id=":junction_main_52" function="internal">
+        <lane id=":junction_main_52_0" index="0" speed="11.27" length="19.08" shape="500.27,340.76 497.80,346.40 493.05,350.30 486.40,351.60"/>
+    </edge>
+    <edge id=":junction_main_53" function="internal">
+        <lane id=":junction_main_53_0" index="0" speed="3.65" length="3.23" shape="500.80,332.00 500.00,332.40 499.20,332.00 498.40,330.80"/>
+    </edge>
+    <edge id=":junction_main_31" function="internal">
+        <lane id=":junction_main_31_0" index="0" speed="8.65" length="16.76" shape="486.40,345.20 488.85,344.30 490.60,341.60 491.65,337.10 492.00,330.80"/>
+    </edge>
+    <edge id=":junction_main_32" function="internal">
+        <lane id=":junction_main_32_0" index="0" speed="11.11" length="32.48" shape="486.40,345.20 494.07,344.02 501.79,340.97 509.14,336.80 515.68,332.24"/>
+    </edge>
+    <edge id=":junction_main_33" function="internal">
+        <lane id=":junction_main_33_0" index="0" speed="11.11" length="36.80" shape="486.40,345.20 523.20,345.20"/>
+        <lane id=":junction_main_33_1" index="1" speed="11.11" length="36.80" shape="486.40,348.40 523.20,348.40"/>
+    </edge>
+    <edge id=":junction_main_35" function="internal">
+        <lane id=":junction_main_35_0" index="0" speed="9.72" length="15.60" shape="486.40,348.40 491.07,347.74 494.57,346.68 497.66,346.59 501.12,348.86"/>
+    </edge>
+    <edge id=":junction_main_36" function="internal">
+        <lane id=":junction_main_36_0" index="0" speed="9.84" length="6.30" shape="486.40,348.40 492.66,349.11"/>
+    </edge>
+    <edge id=":junction_main_37" function="internal">
+        <lane id=":junction_main_37_0" index="0" speed="3.65" length="1.44" shape="486.40,348.40 487.60,349.20"/>
+    </edge>
+    <edge id=":junction_main_54" function="internal">
+        <lane id=":junction_main_54_0" index="0" speed="9.84" length="15.70" shape="492.66,349.11 493.05,349.15 497.80,351.40 500.65,355.15 501.60,360.40"/>
+    </edge>
+    <edge id=":junction_main_55" function="internal">
+        <lane id=":junction_main_55_0" index="0" speed="3.65" length="3.23" shape="487.60,349.20 488.00,350.00 487.60,350.80 486.40,351.60"/>
+    </edge>
+    <edge id=":junction_main_38" function="internal">
+        <lane id=":junction_main_38_0" index="0" speed="5.20" length="8.63" shape="496.59,353.38 501.60,360.40"/>
+    </edge>
+    <edge id=":junction_main_39" function="internal">
+        <lane id=":junction_main_39_0" index="0" speed="9.72" length="10.29" shape="496.59,353.38 486.40,354.80"/>
+    </edge>
+    <edge id=":junction_main_40" function="internal">
+        <lane id=":junction_main_40_0" index="0" speed="11.11" length="0.51" shape="498.85,351.12 498.54,350.72"/>
+    </edge>
+    <edge id=":junction_main_41" function="internal">
+        <lane id=":junction_main_41_0" index="0" speed="9.72" length="0.12" shape="498.85,351.12 498.91,351.01"/>
+    </edge>
+    <edge id=":junction_main_42" function="internal">
+        <lane id=":junction_main_42_0" index="0" speed="8.32" length="7.58" shape="498.85,351.12 500.94,350.12 506.16,349.42"/>
+    </edge>
+    <edge id=":junction_main_43" function="internal">
+        <lane id=":junction_main_43_0" index="0" speed="3.65" length="2.34" shape="498.85,351.12 498.57,349.70 498.86,348.85"/>
+    </edge>
+    <edge id=":junction_main_56" function="internal">
+        <lane id=":junction_main_56_0" index="0" speed="11.11" length="21.47" shape="498.54,350.72 495.86,347.28 493.71,342.61 492.43,337.12 492.00,330.80"/>
+    </edge>
+    <edge id=":junction_main_57" function="internal">
+        <lane id=":junction_main_57_0" index="0" speed="9.72" length="24.92" shape="498.91,351.01 499.78,349.28 503.68,345.66 509.86,340.69 517.60,334.80"/>
+    </edge>
+    <edge id=":junction_main_58" function="internal">
+        <lane id=":junction_main_58_0" index="0" speed="8.32" length="17.08" shape="506.16,349.42 507.46,349.25 515.76,348.63 523.20,348.40"/>
+    </edge>
+    <edge id=":junction_main_59" function="internal">
+        <lane id=":junction_main_59_0" index="0" speed="3.65" length="2.34" shape="498.86,348.85 499.71,348.57 501.12,348.86"/>
+    </edge>
+    <edge id=":junction_north_0" function="internal">
+        <lane id=":junction_north_0_0" index="0" speed="9.72" length="39.25" shape="520.35,686.44 511.74,693.30 502.92,696.87 493.90,697.14 484.68,694.13"/>
+    </edge>
+    <edge id=":junction_north_1" function="internal">
+        <lane id=":junction_north_1_0" index="0" speed="9.34" length="31.53" shape="518.09,684.18 510.55,688.93 503.12,689.26 497.46,685.33 495.20,677.35"/>
+        <lane id=":junction_north_1_1" index="1" speed="8.76" length="27.52" shape="518.09,684.18 511.56,688.19 505.17,688.17 500.32,684.45 498.40,677.35"/>
+    </edge>
+    <edge id=":junction_north_3" function="internal">
+        <lane id=":junction_north_3_0" index="0" speed="3.65" length="2.34" shape="518.09,684.18 516.67,684.46 515.82,684.18"/>
+    </edge>
+    <edge id=":junction_north_10" function="internal">
+        <lane id=":junction_north_10_0" index="0" speed="3.65" length="2.34" shape="515.82,684.18 515.54,683.33 515.82,681.91"/>
+    </edge>
+    <edge id=":junction_north_4" function="internal">
+        <lane id=":junction_north_4_0" index="0" speed="5.47" length="9.74" shape="508.00,677.35 508.35,680.44 509.39,681.86 511.13,681.59 513.56,679.65"/>
+    </edge>
+    <edge id=":junction_north_5" function="internal">
+        <lane id=":junction_north_5_0" index="0" speed="10.36" length="33.18" shape="504.80,677.35 503.49,687.03 499.62,693.64 493.31,696.30 484.68,694.13"/>
+    </edge>
+    <edge id=":junction_north_6" function="internal">
+        <lane id=":junction_north_6_0" index="0" speed="3.65" length="2.34" shape="501.60,677.35 500.80,678.55 500.00,678.95"/>
+    </edge>
+    <edge id=":junction_north_11" function="internal">
+        <lane id=":junction_north_11_0" index="0" speed="3.65" length="2.34" shape="500.00,678.95 499.20,678.55 498.40,677.35"/>
+    </edge>
+    <edge id=":junction_north_7" function="internal">
+        <lane id=":junction_north_7_0" index="0" speed="7.67" length="17.54" shape="486.11,691.26 488.69,691.50 490.53,689.26 491.63,684.54 492.00,677.35"/>
+    </edge>
+    <edge id=":junction_north_8" function="internal">
+        <lane id=":junction_north_8_0" index="0" speed="9.72" length="33.34" shape="486.11,691.26 493.06,693.23 500.32,692.32 507.91,688.55 515.82,681.91"/>
+    </edge>
+    <edge id=":junction_north_9" function="internal">
+        <lane id=":junction_north_9_0" index="0" speed="3.65" length="1.30" shape="486.11,691.26 486.75,692.39"/>
+    </edge>
+    <edge id=":junction_north_12" function="internal">
+        <lane id=":junction_north_12_0" index="0" speed="3.65" length="3.37" shape="486.75,692.39 486.82,692.52 486.82,693.41 486.11,693.95 484.68,694.13"/>
+    </edge>
+    <edge id=":junction_south_0" function="internal">
+        <lane id=":junction_south_0_0" index="0" speed="3.65" length="4.67" shape="498.40,-0.00 499.20,-1.20 500.00,-1.60 500.80,-1.20 501.60,-0.00"/>
+    </edge>
+    <edge id=":junction_west_0" function="internal">
+        <lane id=":junction_west_0_0" index="0" speed="4.08" length="6.40" shape="-0.00,354.80 0.00,348.40"/>
+    </edge>
+    <edge id=":junction_west_1" function="internal">
+        <lane id=":junction_west_1_0" index="0" speed="4.08" length="6.40" shape="0.00,351.60 -0.00,345.20"/>
+        <lane id=":junction_west_1_1" index="1" speed="3.24" length="3.20" shape="0.00,351.60 -0.00,348.40"/>
+    </edge>
+    <edge id=":kamarajar_north_0" function="internal">
+        <lane id=":kamarajar_north_0_0" index="0" speed="4.31" length="5.81" shape="208.02,681.09 207.88,683.02 208.28,683.90 209.23,683.72 210.73,682.48"/>
+        <lane id=":kamarajar_north_0_1" index="1" speed="6.84" length="17.43" shape="204.86,680.56 204.45,686.37 205.66,689.00 208.51,688.46 212.99,684.75"/>
+    </edge>
+    <edge id=":kamarajar_south_0" function="internal">
+        <lane id=":kamarajar_south_0_0" index="0" speed="6.84" length="17.43" shape="195.27,0.79 194.85,-5.01 196.07,-7.64 198.91,-7.10 203.39,-3.39"/>
+        <lane id=":kamarajar_south_0_1" index="1" speed="4.31" length="5.81" shape="198.42,0.26 198.28,-1.67 198.69,-2.55 199.64,-2.37 201.13,-1.13"/>
+    </edge>
+    <edge id=":stadium_north_0" function="internal">
+        <lane id=":stadium_north_0_0" index="0" speed="8.33" length="8.80" shape="704.80,497.35 704.59,499.58 703.98,501.65 702.95,503.54 701.52,505.27"/>
+        <lane id=":stadium_north_0_1" index="1" speed="8.33" length="6.28" shape="701.60,497.35 701.45,498.95 701.01,500.42 700.28,501.77 699.26,503.01"/>
+    </edge>
+    <edge id=":stadium_north_2" function="internal">
+        <lane id=":stadium_north_2_0" index="0" speed="4.20" length="1.26" shape="694.73,498.48 694.94,498.23 695.08,497.96 695.17,497.67 695.20,497.35"/>
+        <lane id=":stadium_north_2_1" index="1" speed="6.63" length="3.77" shape="696.99,500.74 697.61,500.00 698.05,499.19 698.31,498.31 698.40,497.35"/>
+    </edge>
+    <edge id=":stadium_south_0" function="internal">
+        <lane id=":stadium_south_0_0" index="0" speed="5.56" length="9.40" shape="695.20,216.80 694.84,213.92 693.76,212.48 691.96,212.48 689.44,213.92"/>
+    </edge>
+    <edge id=":stadium_south_1" function="internal">
+        <lane id=":stadium_south_1_0" index="0" speed="8.33" length="25.36" shape="698.40,216.80 699.35,208.79 702.19,204.15 706.92,202.89 713.56,204.99"/>
+    </edge>
+    <edge id=":stadium_south_2" function="internal">
+        <lane id=":stadium_south_2_0" index="0" speed="3.65" length="2.34" shape="698.40,216.80 699.20,215.60 700.00,215.20"/>
+    </edge>
+    <edge id=":stadium_south_11" function="internal">
+        <lane id=":stadium_south_11_0" index="0" speed="3.65" length="2.34" shape="700.00,215.20 700.80,215.60 701.60,216.80"/>
+    </edge>
+    <edge id=":stadium_south_3" function="internal">
+        <lane id=":stadium_south_3_0" index="0" speed="6.20" length="10.99" shape="710.69,210.71 708.11,209.99 706.27,210.76 705.17,213.03 704.80,216.80"/>
+    </edge>
+    <edge id=":stadium_south_4" function="internal">
+        <lane id=":stadium_south_4_0" index="0" speed="11.11" length="22.70" shape="710.69,210.71 705.54,209.00 700.29,208.97 694.92,210.61 689.44,213.92"/>
+        <lane id=":stadium_south_4_1" index="1" speed="11.11" length="26.25" shape="712.12,207.85 706.10,205.83 700.00,205.74 693.80,207.58 687.52,211.36"/>
+    </edge>
+    <edge id=":stadium_south_6" function="internal">
+        <lane id=":stadium_south_6_0" index="0" speed="3.65" length="1.31" shape="712.12,207.85 711.48,206.72"/>
+    </edge>
+    <edge id=":stadium_south_12" function="internal">
+        <lane id=":stadium_south_12_0" index="0" speed="3.65" length="3.37" shape="711.48,206.72 711.41,206.60 711.41,205.70 712.12,205.17 713.56,204.99"/>
+    </edge>
+    <edge id=":stadium_south_7" function="internal">
+        <lane id=":stadium_south_7_0" index="0" speed="11.11" length="33.36" shape="683.68,206.24 691.57,201.54 699.41,199.28 707.22,199.48 714.99,202.13"/>
+        <lane id=":stadium_south_7_1" index="1" speed="11.11" length="29.81" shape="685.60,208.80 692.68,204.56 699.70,202.51 706.66,202.65 713.56,204.99"/>
+    </edge>
+    <edge id=":stadium_south_9" function="internal">
+        <lane id=":stadium_south_9_0" index="0" speed="8.33" length="6.04" shape="685.60,208.80 691.09,206.30"/>
+    </edge>
+    <edge id=":stadium_south_10" function="internal">
+        <lane id=":stadium_south_10_0" index="0" speed="3.65" length="1.44" shape="685.60,208.80 687.04,208.72"/>
+    </edge>
+    <edge id=":stadium_south_13" function="internal">
+        <lane id=":stadium_south_13_0" index="0" speed="8.33" length="17.18" shape="691.09,206.30 691.45,206.14 696.58,206.84 700.22,210.52 701.60,216.80"/>
+    </edge>
+    <edge id=":stadium_south_14" function="internal">
+        <lane id=":stadium_south_14_0" index="0" speed="3.65" length="3.23" shape="687.04,208.72 687.84,209.12 688.00,210.00 687.52,211.36"/>
+    </edge>
+    <edge id=":uni_east_0" function="internal">
+        <lane id=":uni_east_0_0" index="0" speed="5.56" length="16.57" shape="497.07,343.77 498.80,347.05 499.03,350.66 497.74,354.60 494.95,358.87"/>
+    </edge>
+    <edge id=":uni_east_1" function="internal">
+        <lane id=":uni_east_1_0" index="0" speed="4.99" length="10.32" shape="497.07,343.77 498.93,346.78 500.18,349.91 500.35,351.84 499.00,351.26"/>
+    </edge>
+    <edge id=":uni_east_2" function="internal">
+        <lane id=":uni_east_2_0" index="0" speed="3.66" length="0.62" shape="497.07,343.77 497.19,344.38"/>
+    </edge>
+    <edge id=":uni_east_9" function="internal">
+        <lane id=":uni_east_9_0" index="0" speed="3.66" length="4.08" shape="497.19,344.38 497.35,345.20 497.06,346.05 496.21,346.33 494.78,346.04"/>
+    </edge>
+    <edge id=":uni_east_3" function="internal">
+        <lane id=":uni_east_3_0" index="0" speed="4.67" length="8.77" shape="503.53,346.74 494.78,346.04"/>
+    </edge>
+    <edge id=":uni_east_4" function="internal">
+        <lane id=":uni_east_4_0" index="0" speed="6.95" length="11.86" shape="501.26,349.00 501.20,349.95 500.13,351.91 498.04,354.88 494.95,358.87"/>
+    </edge>
+    <edge id=":uni_east_5" function="internal">
+        <lane id=":uni_east_5_0" index="0" speed="3.65" length="2.34" shape="501.26,349.00 501.54,350.42 501.26,351.26"/>
+    </edge>
+    <edge id=":uni_east_10" function="internal">
+        <lane id=":uni_east_10_0" index="0" speed="3.65" length="2.34" shape="501.26,351.26 500.41,351.54 499.00,351.26"/>
+    </edge>
+    <edge id=":uni_east_6" function="internal">
+        <lane id=":uni_east_6_0" index="0" speed="5.42" length="5.44" shape="492.45,356.87 496.73,353.52"/>
+    </edge>
+    <edge id=":uni_east_7" function="internal">
+        <lane id=":uni_east_7_0" index="0" speed="5.56" length="11.96" shape="492.45,356.87 494.66,353.62 495.78,350.73 495.83,348.20 494.78,346.04"/>
+    </edge>
+    <edge id=":uni_east_8" function="internal">
+        <lane id=":uni_east_8_0" index="0" speed="3.65" length="1.34" shape="492.45,356.87 493.73,356.47"/>
+    </edge>
+    <edge id=":uni_east_11" function="internal">
+        <lane id=":uni_east_11_0" index="0" speed="3.65" length="3.33" shape="493.73,356.47 493.83,356.44 494.70,356.62 495.08,357.44 494.95,358.87"/>
+    </edge>
+    <edge id=":uni_north_0" function="internal">
+        <lane id=":uni_north_0_0" index="0" speed="9.72" length="32.26" shape="306.40,604.99 301.20,601.15 296.96,595.31 293.70,587.47 291.41,577.64"/>
+    </edge>
+    <edge id=":uni_north_1" function="internal">
+        <lane id=":uni_north_1_0" index="0" speed="6.95" length="30.38" shape="306.40,604.99 302.90,601.73 300.40,595.94 298.90,587.63 298.40,576.80"/>
+    </edge>
+    <edge id=":uni_north_2" function="internal">
+        <lane id=":uni_north_2_0" index="0" speed="6.95" length="7.34" shape="306.40,604.99 303.10,602.31 302.27,599.33"/>
+    </edge>
+    <edge id=":uni_north_3" function="internal">
+        <lane id=":uni_north_3_0" index="0" speed="3.65" length="1.44" shape="306.40,604.99 305.69,603.74"/>
+    </edge>
+    <edge id=":uni_north_16" function="internal">
+        <lane id=":uni_north_16_0" index="0" speed="6.95" length="11.85" shape="302.27,599.33 302.09,598.71 303.38,594.19 306.95,588.75"/>
+    </edge>
+    <edge id=":uni_north_17" function="internal">
+        <lane id=":uni_north_17_0" index="0" speed="3.65" length="3.23" shape="305.69,603.74 305.69,602.84 306.40,602.31 307.83,602.13"/>
+    </edge>
+    <edge id=":uni_north_4" function="internal">
+        <lane id=":uni_north_4_0" index="0" speed="6.95" length="13.29" shape="309.45,590.75 306.74,594.73 305.56,597.95 305.93,600.41 307.83,602.13"/>
+    </edge>
+    <edge id=":uni_north_5" function="internal">
+        <lane id=":uni_north_5_0" index="0" speed="8.33" length="26.32" shape="309.45,590.75 304.43,593.87 300.07,591.37 296.68,585.15 294.56,577.12"/>
+    </edge>
+    <edge id=":uni_north_6" function="internal">
+        <lane id=":uni_north_6_0" index="0" speed="5.56" length="23.56" shape="309.45,590.75 305.12,593.22 301.61,590.38 299.26,584.24 298.40,576.80"/>
+    </edge>
+    <edge id=":uni_north_7" function="internal">
+        <lane id=":uni_north_7_0" index="0" speed="3.65" length="1.44" shape="309.45,590.75 308.07,591.19"/>
+    </edge>
+    <edge id=":uni_north_18" function="internal">
+        <lane id=":uni_north_18_0" index="0" speed="3.65" length="3.23" shape="308.07,591.19 307.20,591.00 306.82,590.19 306.95,588.75"/>
+    </edge>
+    <edge id=":uni_north_8" function="internal">
+        <lane id=":uni_north_8_0" index="0" speed="5.56" length="17.54" shape="301.60,576.80 301.93,584.54 302.94,589.11 304.61,590.51 306.95,588.75"/>
+    </edge>
+    <edge id=":uni_north_9" function="internal">
+        <lane id=":uni_north_9_0" index="0" speed="6.95" length="26.91" shape="301.60,576.80 301.99,586.71 303.16,594.24 305.11,599.38 307.83,602.13"/>
+    </edge>
+    <edge id=":uni_north_10" function="internal">
+        <lane id=":uni_north_10_0" index="0" speed="4.94" length="1.76" shape="301.60,576.80 300.88,578.40"/>
+    </edge>
+    <edge id=":uni_north_11" function="internal">
+        <lane id=":uni_north_11_0" index="0" speed="3.65" length="1.44" shape="301.60,576.80 300.80,578.00"/>
+    </edge>
+    <edge id=":uni_north_19" function="internal">
+        <lane id=":uni_north_19_0" index="0" speed="4.94" length="8.12" shape="300.88,578.40 300.59,579.04 298.32,579.87 295.93,579.25 294.56,577.12"/>
+    </edge>
+    <edge id=":uni_north_20" function="internal">
+        <lane id=":uni_north_20_0" index="0" speed="3.65" length="3.23" shape="300.80,578.00 300.00,578.40 299.20,578.00 298.40,576.80"/>
+    </edge>
+    <edge id=":uni_north_12" function="internal">
+        <lane id=":uni_north_12_0" index="0" speed="11.11" length="24.58" shape="291.39,601.82 292.69,599.01 293.13,594.04 292.70,586.92 291.41,577.64"/>
+    </edge>
+    <edge id=":uni_north_13" function="internal">
+        <lane id=":uni_north_13_0" index="0" speed="8.33" length="26.57" shape="291.39,601.82 294.46,597.63 296.65,592.06 297.96,585.12 298.40,576.80"/>
+    </edge>
+    <edge id=":uni_north_14" function="internal">
+        <lane id=":uni_north_14_0" index="0" speed="8.33" length="20.34" shape="291.39,601.82 296.37,597.34 300.65,594.10 304.19,591.45 306.95,588.75"/>
+    </edge>
+    <edge id=":uni_north_15" function="internal">
+        <lane id=":uni_north_15_0" index="0" speed="9.50" length="15.40" shape="293.66,604.08 296.80,601.70 300.21,600.58 303.89,600.72 307.83,602.13"/>
+    </edge>
+    <edge id=":uni_south_0" function="internal">
+        <lane id=":uni_south_0_0" index="0" speed="7.16" length="23.11" shape="298.40,142.57 298.17,133.78 297.48,130.65 296.34,133.17 294.73,141.36"/>
+    </edge>
+    <edge id=":uni_south_1" function="internal">
+        <lane id=":uni_south_1_0" index="0" speed="5.56" length="42.64" shape="298.40,142.57 298.83,127.51 300.47,114.28 303.84,106.86 309.45,109.25"/>
+    </edge>
+    <edge id=":uni_south_2" function="internal">
+        <lane id=":uni_south_2_0" index="0" speed="3.66" length="1.45" shape="298.40,142.57 299.34,141.46"/>
+    </edge>
+    <edge id=":uni_south_9" function="internal">
+        <lane id=":uni_south_9_0" index="0" speed="3.66" length="3.25" shape="299.34,141.46 300.18,141.15 300.94,141.64 301.60,142.93"/>
+    </edge>
+    <edge id=":uni_south_3" function="internal">
+        <lane id=":uni_south_3_0" index="0" speed="5.56" length="34.93" shape="306.95,111.25 304.61,110.72 302.94,115.82 301.93,126.56 301.60,142.93"/>
+    </edge>
+    <edge id=":uni_south_4" function="internal">
+        <lane id=":uni_south_4_0" index="0" speed="8.33" length="33.51" shape="306.95,111.25 305.15,111.66 303.03,116.98 300.58,127.22 297.80,142.37"/>
+    </edge>
+    <edge id=":uni_south_5" function="internal">
+        <lane id=":uni_south_5_0" index="0" speed="3.65" length="0.90" shape="306.95,111.25 306.87,110.35"/>
+    </edge>
+    <edge id=":uni_south_10" function="internal">
+        <lane id=":uni_south_10_0" index="0" speed="3.65" length="3.77" shape="306.87,110.35 306.82,109.81 307.20,109.00 308.07,108.81 309.45,109.25"/>
+    </edge>
+    <edge id=":uni_south_6" function="internal">
+        <lane id=":uni_south_6_0" index="0" speed="8.33" length="22.32" shape="297.37,90.58 301.80,95.93 304.89,101.10 307.24,105.68 309.45,109.25"/>
+    </edge>
+    <edge id=":uni_south_7" function="internal">
+        <lane id=":uni_south_7_0" index="0" speed="8.33" length="50.98" shape="295.10,92.84 299.10,102.95 301.00,118.66 301.58,133.99 301.60,142.93"/>
+    </edge>
+    <edge id=":uni_south_8" function="internal">
+        <lane id=":uni_south_8_0" index="0" speed="11.11" length="49.28" shape="295.10,92.84 297.56,98.35 298.31,108.27 297.37,122.61 294.73,141.36"/>
+    </edge>
+    <edge id=":uni_west_0" function="internal">
+        <lane id=":uni_west_0_0" index="0" speed="3.65" length="4.67" shape="100.00,348.40 101.20,349.20 101.60,350.00 101.20,350.80 100.00,351.60"/>
+    </edge>
+
+    <edge id="anna_salai_nb" from="junction_south" to="junction_main" priority="-1">
+        <lane id="anna_salai_nb_0" index="0" speed="13.89" length="330.80" shape="508.00,-0.00 508.00,330.80"/>
+        <lane id="anna_salai_nb_1" index="1" speed="13.89" length="330.80" shape="504.80,-0.00 504.80,330.80"/>
+        <lane id="anna_salai_nb_2" index="2" speed="13.89" length="330.80" shape="501.60,-0.00 501.60,330.80"/>
+    </edge>
+    <edge id="anna_salai_nb2" from="junction_main" to="junction_north" priority="-1">
+        <lane id="anna_salai_nb2_0" index="0" speed="13.89" length="316.95" shape="508.00,360.40 508.00,677.35"/>
+        <lane id="anna_salai_nb2_1" index="1" speed="13.89" length="316.95" shape="504.80,360.40 504.80,677.35"/>
+        <lane id="anna_salai_nb2_2" index="2" speed="13.89" length="316.95" shape="501.60,360.40 501.60,677.35"/>
+    </edge>
+    <edge id="anna_salai_sb" from="junction_north" to="junction_main" priority="-1">
+        <lane id="anna_salai_sb_0" index="0" speed="13.89" length="316.95" shape="492.00,677.35 492.00,360.40"/>
+        <lane id="anna_salai_sb_1" index="1" speed="13.89" length="316.95" shape="495.20,677.35 495.20,360.40"/>
+        <lane id="anna_salai_sb_2" index="2" speed="13.89" length="316.95" shape="498.40,677.35 498.40,360.40"/>
+    </edge>
+    <edge id="anna_salai_sb2" from="junction_main" to="junction_south" priority="-1">
+        <lane id="anna_salai_sb2_0" index="0" speed="13.89" length="330.80" shape="492.00,330.80 492.00,-0.00"/>
+        <lane id="anna_salai_sb2_1" index="1" speed="13.89" length="330.80" shape="495.20,330.80 495.20,-0.00"/>
+        <lane id="anna_salai_sb2_2" index="2" speed="13.89" length="330.80" shape="498.40,330.80 498.40,-0.00"/>
+    </edge>
+    <edge id="connector_uw" from="uni_west" to="junction_west" priority="-1">
+        <lane id="connector_uw_0" index="0" speed="8.33" length="100.00" shape="100.00,351.60 0.00,351.60"/>
+    </edge>
+    <edge id="connector_uw_rev" from="junction_west" to="uni_west" priority="-1">
+        <lane id="connector_uw_rev_0" index="0" speed="8.33" length="100.00" shape="0.00,348.40 100.00,348.40"/>
+    </edge>
+    <edge id="kamarajar_nb" from="kamarajar_south" to="uni_south" priority="-1">
+        <lane id="kamarajar_nb_0" index="0" speed="11.11" length="132.90" shape="203.39,-3.39 297.37,90.58"/>
+        <lane id="kamarajar_nb_1" index="1" speed="11.11" length="132.90" shape="201.13,-1.13 295.10,92.84"/>
+    </edge>
+    <edge id="kamarajar_nb2" from="uni_south" to="kamarajar_north" priority="-1">
+        <lane id="kamarajar_nb2_0" index="0" speed="11.11" length="546.40" shape="297.80,142.37 208.02,681.09"/>
+        <lane id="kamarajar_nb2_1" index="1" speed="11.11" length="546.40" shape="294.73,141.36 204.86,680.56"/>
+    </edge>
+    <edge id="kamarajar_sb" from="kamarajar_north" to="uni_north" priority="-1">
+        <lane id="kamarajar_sb_0" index="0" speed="11.11" length="114.08" shape="210.73,682.48 291.39,601.82"/>
+        <lane id="kamarajar_sb_1" index="1" speed="11.11" length="114.08" shape="212.99,684.75 293.66,604.08"/>
+    </edge>
+    <edge id="kamarajar_sb2" from="uni_north" to="kamarajar_south" priority="-1">
+        <lane id="kamarajar_sb2_0" index="0" speed="11.11" length="584.81" shape="291.41,577.64 195.27,0.79"/>
+        <lane id="kamarajar_sb2_1" index="1" speed="11.11" length="584.81" shape="294.56,577.12 198.42,0.26"/>
+    </edge>
+    <edge id="stadium_approach_n" from="junction_north" to="stadium_north" priority="-1">
+        <lane id="stadium_approach_n_0" index="0" speed="11.11" length="256.22" shape="513.56,679.65 694.73,498.48"/>
+        <lane id="stadium_approach_n_1" index="1" speed="11.11" length="256.22" shape="515.82,681.91 696.99,500.74"/>
+    </edge>
+    <edge id="stadium_approach_n_rev" from="stadium_north" to="junction_north" priority="-1">
+        <lane id="stadium_approach_n_rev_0" index="0" speed="11.11" length="256.22" shape="701.52,505.27 520.35,686.44"/>
+        <lane id="stadium_approach_n_rev_1" index="1" speed="11.11" length="256.22" shape="699.26,503.01 518.09,684.18"/>
+    </edge>
+    <edge id="stadium_east_entry" from="junction_east" to="stadium_south" priority="-1">
+        <lane id="stadium_east_entry_0" index="0" speed="11.11" length="293.94" shape="973.60,342.17 710.69,210.71"/>
+        <lane id="stadium_east_entry_1" index="1" speed="11.11" length="293.94" shape="975.04,339.31 712.12,207.85"/>
+    </edge>
+    <edge id="stadium_east_exit" from="stadium_south" to="junction_east" priority="-1">
+        <lane id="stadium_east_exit_0" index="0" speed="11.11" length="293.94" shape="714.99,202.13 977.90,333.58"/>
+        <lane id="stadium_east_exit_1" index="1" speed="11.11" length="293.94" shape="713.56,204.99 976.47,336.44"/>
+    </edge>
+    <edge id="stadium_exit_s" from="stadium_south" to="junction_main" priority="-1">
+        <lane id="stadium_exit_s_0" index="0" speed="11.11" length="210.00" shape="689.44,213.92 521.44,339.92"/>
+        <lane id="stadium_exit_s_1" index="1" speed="11.11" length="210.00" shape="687.52,211.36 519.52,337.36"/>
+    </edge>
+    <edge id="stadium_exit_s_rev" from="junction_main" to="stadium_south" priority="-1">
+        <lane id="stadium_exit_s_rev_0" index="0" speed="11.11" length="210.00" shape="515.68,332.24 683.68,206.24"/>
+        <lane id="stadium_exit_s_rev_1" index="1" speed="11.11" length="210.00" shape="517.60,334.80 685.60,208.80"/>
+    </edge>
+    <edge id="stadium_internal" from="stadium_north" to="stadium_south" priority="-1">
+        <lane id="stadium_internal_0" index="0" speed="5.56" length="280.55" shape="695.20,497.35 695.20,216.80"/>
+        <lane id="stadium_internal_1" index="1" speed="5.56" length="280.55" shape="698.40,497.35 698.40,216.80"/>
+    </edge>
+    <edge id="stadium_internal_rev" from="stadium_south" to="stadium_north" priority="-1">
+        <lane id="stadium_internal_rev_0" index="0" speed="5.56" length="280.55" shape="704.80,216.80 704.80,497.35"/>
+        <lane id="stadium_internal_rev_1" index="1" speed="5.56" length="280.55" shape="701.60,216.80 701.60,497.35"/>
+    </edge>
+    <edge id="uni_east_to_south" from="uni_east" to="uni_south" priority="-1">
+        <lane id="uni_east_to_south_0" index="0" speed="5.56" length="300.68" shape="494.78,346.04 306.95,111.25"/>
+    </edge>
+    <edge id="uni_entrance_in" from="junction_main" to="uni_east" priority="-1" shape="500.00,350.00 500.10,350.10">
+        <lane id="uni_entrance_in_0" index="0" speed="8.33" length="0.20" shape="503.39,346.60 503.53,346.74"/>
+        <lane id="uni_entrance_in_1" index="1" speed="8.33" length="0.20" shape="501.12,348.86 501.26,349.00"/>
+    </edge>
+    <edge id="uni_entrance_out" from="uni_east" to="junction_main" priority="-1" shape="500.10,350.10 500.00,350.00">
+        <lane id="uni_entrance_out_0" index="0" speed="8.33" length="0.20" shape="496.73,353.52 496.59,353.38"/>
+        <lane id="uni_entrance_out_1" index="1" speed="8.33" length="0.20" shape="499.00,351.26 498.85,351.12"/>
+    </edge>
+    <edge id="uni_from_east" from="uni_north" to="uni_east" priority="-1">
+        <lane id="uni_from_east_0" index="0" speed="5.56" length="296.95" shape="306.95,588.75 492.45,356.87"/>
+    </edge>
+    <edge id="uni_internal_ns" from="uni_north" to="uni_south" priority="-1">
+        <lane id="uni_internal_ns_0" index="0" speed="5.56" length="434.23" shape="298.40,576.80 298.40,142.57"/>
+    </edge>
+    <edge id="uni_internal_sn" from="uni_south" to="uni_north" priority="-1">
+        <lane id="uni_internal_sn_0" index="0" speed="5.56" length="433.87" shape="301.60,142.93 301.60,576.80"/>
+    </edge>
+    <edge id="uni_north_conn" from="uni_north" to="junction_north" priority="-1">
+        <lane id="uni_north_conn_0" index="0" speed="8.33" length="199.32" shape="307.83,602.13 486.11,691.26"/>
+    </edge>
+    <edge id="uni_north_conn_rev" from="junction_north" to="uni_north" priority="-1">
+        <lane id="uni_north_conn_rev_0" index="0" speed="8.33" length="199.32" shape="484.68,694.13 306.40,604.99"/>
+    </edge>
+    <edge id="uni_south_to_east" from="uni_south" to="uni_east" priority="-1">
+        <lane id="uni_south_to_east_0" index="0" speed="5.56" length="300.34" shape="309.45,109.25 497.07,343.77"/>
+    </edge>
+    <edge id="uni_to_east" from="uni_east" to="uni_north" priority="-1">
+        <lane id="uni_to_east_0" index="0" speed="5.56" length="296.95" shape="494.95,358.87 309.45,590.75"/>
+    </edge>
+    <edge id="wallajah_eb" from="junction_west" to="junction_main" priority="-1">
+        <lane id="wallajah_eb_0" index="0" speed="11.11" length="486.40" shape="-0.00,345.20 486.40,345.20"/>
+        <lane id="wallajah_eb_1" index="1" speed="11.11" length="486.40" shape="-0.00,348.40 486.40,348.40"/>
+    </edge>
+    <edge id="wallajah_eb2" from="junction_main" to="junction_east" priority="-1">
+        <lane id="wallajah_eb2_0" index="0" speed="11.11" length="449.69" shape="523.20,345.20 972.89,345.20"/>
+        <lane id="wallajah_eb2_1" index="1" speed="11.11" length="449.69" shape="523.20,348.40 972.89,348.40"/>
+    </edge>
+    <edge id="wallajah_wb" from="junction_east" to="junction_main" priority="-1">
+        <lane id="wallajah_wb_0" index="0" speed="11.11" length="449.69" shape="972.89,354.80 523.20,354.80"/>
+        <lane id="wallajah_wb_1" index="1" speed="11.11" length="449.69" shape="972.89,351.60 523.20,351.60"/>
+    </edge>
+    <edge id="wallajah_wb2" from="junction_main" to="junction_west" priority="-1">
+        <lane id="wallajah_wb2_0" index="0" speed="11.11" length="486.40" shape="486.40,354.80 -0.00,354.80"/>
+        <lane id="wallajah_wb2_1" index="1" speed="11.11" length="486.40" shape="486.40,351.60 -0.00,351.60"/>
+    </edge>
+
+    <tlLogic id="junction_main" type="actuated" programID="0" offset="0">
+        <phase duration="17" state="GGGGggGgrrrrrrrrrrrrrrGGggGGGggrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyggyyrrrrrrrrrrrrrryyggyyyggrrrrrrrrrrrrr"/>
+        <phase duration="6"  state="rrrrGGrrrrrrrrrrrrrrrrrrGGrrrGGrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrrrrrrrrrryyrrryyrrrrrrrrrrrrr"/>
+        <phase duration="18" state="rrrrrrrrGGGGgggrrrrrrrrrrrrrrrrGGGGgggrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrryyyygggrrrrrrrrrrrrrrrryyyygggrrrrrr"/>
+        <phase duration="6"  state="rrrrrrrrrrrrGGGrrrrrrrrrrrrrrrrrrrrGGGrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrrrryyyrrrrrrrrrrrrrrrrrrrryyyrrrrrr"/>
+        <phase duration="18" state="rrrrrrrrrrrrrrrGGGGGggrrrrrrrrrrrrrrrrgggggg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrryyyyyggrrrrrrrrrrrrrrrrgggggg"/>
+        <phase duration="6"  state="rrrrrrrrrrrrrrrrrrrrggrrrrrrrrrrrrrrrrGGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrrrrrrryyrrrrrrrrrrrrrrrryyyyyy"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="junction_north" type="actuated" programID="0" offset="0">
+        <phase duration="24" state="GrrrrrrGGg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yrrrrrryyy"/>
+        <phase duration="2"  state="rrrrrrrrrr"/>
+        <phase duration="26" state="GGGgGrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyyrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrr"/>
+        <phase duration="26" state="rrrrGGgGrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyyyrr"/>
+        <phase duration="1"  state="rrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="stadium_north" type="actuated" programID="0" offset="0">
+        <phase duration="82" state="GGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyy"/>
+        <phase duration="5"  state="rrrr"/>
+    </tlLogic>
+    <tlLogic id="stadium_south" type="actuated" programID="0" offset="0">
+        <phase duration="41" state="rrrGGGgGGgg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrryyyyyyyy"/>
+        <phase duration="1"  state="rrrrrrrrrrr"/>
+        <phase duration="41" state="GGgGrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="uni_east" type="actuated" programID="0" offset="0">
+        <phase duration="27" state="GrrrrrGGg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yrrrrrGyy"/>
+        <phase duration="27" state="rrrGGgGrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrGyyyrr"/>
+        <phase duration="27" state="GGgGrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="Gyyyrrrrr"/>
+    </tlLogic>
+    <tlLogic id="uni_north" type="actuated" programID="0" offset="0">
+        <phase duration="25" state="rrrrGGGgGrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyyyyrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="26" state="GGggrrrrGGggrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyrrrryyyyrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="26" state="rrrrrrrrrrrrGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrrrryyyy"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="uni_south" type="actuated" programID="0" offset="0">
+        <phase duration="23" state="rGrGGgrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="ryryyyrrr"/>
+        <phase duration="4"  state="rrrrrrrrr"/>
+        <phase duration="23" state="rrrrrrGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrryyy"/>
+        <phase duration="4"  state="rrrrrrrrr"/>
+        <phase duration="23" state="GGgGrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyrrrrr"/>
+        <phase duration="4"  state="rrrrrrrrr"/>
+    </tlLogic>
+
+    <junction id="junction_east" type="priority" x="1000.00" y="350.00" incLanes="stadium_east_exit_0 stadium_east_exit_1 wallajah_eb2_0 wallajah_eb2_1" intLanes=":junction_east_0_0 :junction_east_0_1 :junction_east_2_0 :junction_east_2_1" shape="978.61,332.15 972.89,343.60 972.89,356.40 988.11,355.73 997.62,353.71 1001.43,350.34 999.53,345.62 991.93,339.56">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="junction_main" type="traffic_light" x="500.00" y="350.00" incLanes="anna_salai_sb_0 anna_salai_sb_1 anna_salai_sb_2 wallajah_wb_0 wallajah_wb_1 stadium_exit_s_0 stadium_exit_s_1 anna_salai_nb_0 anna_salai_nb_1 anna_salai_nb_2 wallajah_eb_0 wallajah_eb_1 uni_entrance_out_0 uni_entrance_out_1" intLanes=":junction_main_0_0 :junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_44_0 :junction_main_45_0 :junction_main_6_0 :junction_main_46_0 :junction_main_8_0 :junction_main_9_0 :junction_main_10_0 :junction_main_10_1 :junction_main_47_0 :junction_main_48_0 :junction_main_49_0 :junction_main_15_0 :junction_main_16_0 :junction_main_17_0 :junction_main_18_0 :junction_main_18_1 :junction_main_50_0 :junction_main_51_0 :junction_main_22_0 :junction_main_23_0 :junction_main_24_0 :junction_main_24_1 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_52_0 :junction_main_53_0 :junction_main_31_0 :junction_main_32_0 :junction_main_33_0 :junction_main_33_1 :junction_main_35_0 :junction_main_54_0 :junction_main_55_0 :junction_main_38_0 :junction_main_39_0 :junction_main_56_0 :junction_main_57_0 :junction_main_58_0 :junction_main_59_0" shape="490.40,360.40 509.60,360.40 511.11,358.18 513.00,357.40 515.64,356.84 519.04,356.51 523.20,356.40 523.20,343.60 521.33,343.33 521.00,343.00 521.07,342.53 521.53,341.93 522.40,341.20 514.72,330.96 511.88,332.65 510.88,332.84 510.17,332.60 509.74,331.92 509.60,330.80 490.40,330.80 490.29,334.71 489.96,337.91 489.40,340.40 488.62,342.18 487.62,343.24 486.40,343.60 486.40,356.40 500.18,359.23 509.23,350.18">
+        <request index="0"  response="01110000000000000000000000000000000000000000" foes="01111100100000000011000011010000110101000000" cont="0"/>
+        <request index="1"  response="01110001000000000000000000000000000000000000" foes="01110101011111100011000111010001110101000000" cont="0"/>
+        <request index="2"  response="01110001000000000000000000000000000000000000" foes="01110101011111100011000111010001110101000000" cont="0"/>
+        <request index="3"  response="01110001000000000000000100000001000000000000" foes="01110101011111100011000111010001110101000000" cont="0"/>
+        <request index="4"  response="01110001100000011100100100000011000000000000" foes="01110101111000011100101111010011110101000000" cont="1"/>
+        <request index="5"  response="01000001000000011100000000000011000000000000" foes="01000101011000011100000000100111110100000000" cont="1"/>
+        <request index="6"  response="01110001000000000000000000000001000000000000" foes="01110001100000000011000000010001000100011111" cont="0"/>
+        <request index="7"  response="00000101000000011100000000000000000000000000" foes="00000101000000011100000000000000000000000000" cont="1"/>
+        <request index="8"  response="00000000000000011111000000000000000001111111" foes="00000101000000011111000000100000000001111111" cont="0"/>
+        <request index="9"  response="00000000000000011100000000000000000000000000" foes="00000100000000011100000000100000000000000000" cont="0"/>
+        <request index="10" response="01110000000000111111000000000000000000111111" foes="01111011100000111111000011110000000000111111" cont="0"/>
+        <request index="11" response="01110000000000111111000000000000000000111111" foes="01111011100000111111000011110000000000111111" cont="0"/>
+        <request index="12" response="01100000011100111111000111000000000000111110" foes="01100000011101111111000111110000000001111110" cont="1"/>
+        <request index="13" response="01100000011000000000100111000000000000110000" foes="01100000011000000000101111110000000000110000" cont="1"/>
+        <request index="14" response="01000000011000000000000000000000000000100000" foes="01000000011000000000000000000000000000100000" cont="1"/>
+        <request index="15" response="00000000011000000000100000000000000000000000" foes="00000000011000000000100000000000000000000000" cont="0"/>
+        <request index="16" response="00000001011000011111100000000011110001011111" foes="11000101111000011111100000000011110001011111" cont="0"/>
+        <request index="17" response="00000000011000011100100000000011111100100000" foes="01000100011000011100100000000011111100100000" cont="0"/>
+        <request index="18" response="00000001000000111111100000000011110000011111" foes="00111011111000111111100000000011110000011111" cont="0"/>
+        <request index="19" response="00000001000000111111100000000011110000011111" foes="00111011111000111111100000000011110000011111" cont="0"/>
+        <request index="20" response="00100000000100111111100000000011000000011110" foes="00100000000101111111100000000011000000011110" cont="1"/>
+        <request index="21" response="00100000000000000000000000000010000000010000" foes="00100000000000000000000000000010000000010000" cont="1"/>
+        <request index="22" response="00000000000000000000000000000000000000000000" foes="00000000000100000000000000000000000000000000" cont="0"/>
+        <request index="23" response="00100000000000000000000100000010000000000000" foes="00100000011100000000000111111010000000010000" cont="0"/>
+        <request index="24" response="01100001000000000000000100000001000001001111" foes="11100101111100011100000111010001110101001111" cont="0"/>
+        <request index="25" response="01100001000000000000000100000001000001001111" foes="11100101111100011000000111010001110101001111" cont="0"/>
+        <request index="26" response="01100000000000000000000100000001000000000000" foes="01100101011100000001000111110001111110110000" cont="0"/>
+        <request index="27" response="01100000000000000000000100000001000000000000" foes="01100101011100000011000111110001111110110000" cont="0"/>
+        <request index="28" response="01100001000000000000000100000001000000000000" foes="01100101011100000011000111110001111110110000" cont="0"/>
+        <request index="29" response="00010001000000000000000100000001000000001110" foes="00010011111100000000000111000001110000001110" cont="1"/>
+        <request index="30" response="00000000000000000000000100000001000000001110" foes="00000000000000000000000100000001000000001110" cont="1"/>
+        <request index="31" response="00010000000000000000000000000000000000001110" foes="00010000000000000000000000000000000000001110" cont="0"/>
+        <request index="32" response="00010000000000111111110100000000000000001110" foes="00010000000000111111110100000001000000001110" cont="0"/>
+        <request index="33" response="00110000000000111111100011000000000000111110" foes="01110000000000111111100011111111000000111110" cont="0"/>
+        <request index="34" response="01110000000000111111100011000000000000111110" foes="01110000000000111111100011111111000000111110" cont="0"/>
+        <request index="35" response="01110000000000100011000011010000110001000001" foes="11110100000000100011000011010000110001010001" cont="0"/>
+        <request index="36" response="01110000000000111111000011010000110100111110" foes="01110100000000111111000011010000110111111110" cont="1"/>
+        <request index="37" response="00000000000000100000000011000000110000000000" foes="00000000000000100000000011000000110000000000" cont="1"/>
+        <request index="38" response="00000001100000011111000000110000001100111111" foes="01110001100000011111000000110000001110111111" cont="0"/>
+        <request index="39" response="00000000000000000000000011000000110000000001" foes="00000000000000000000000011000000110000000001" cont="0"/>
+        <request index="40" response="00000001111110100000000011000000110000001111" foes="00000101111110100000000011000000110000011111" cont="1"/>
+        <request index="41" response="00000001111000011111100011000011110000011111" foes="00000101111000011111101111000011110001011111" cont="1"/>
+        <request index="42" response="00000001111000011111000000110011110000111111" foes="00000101111000011111000000110111110001111111" cont="1"/>
+        <request index="43" response="00000000100000000011000000010000000000000000" foes="00000000100000000011000000010000000000000000" cont="1"/>
+    </junction>
+    <junction id="junction_north" type="traffic_light" x="500.00" y="700.00" incLanes="stadium_approach_n_rev_0 stadium_approach_n_rev_1 anna_salai_nb2_0 anna_salai_nb2_1 anna_salai_nb2_2 uni_north_conn_0" intLanes=":junction_north_0_0 :junction_north_1_0 :junction_north_1_1 :junction_north_10_0 :junction_north_4_0 :junction_north_5_0 :junction_north_11_0 :junction_north_7_0 :junction_north_8_0 :junction_north_12_0" shape="521.48,687.57 512.43,678.52 510.86,679.65 510.31,679.64 509.91,679.26 509.68,678.49 509.60,677.35 490.40,677.35 490.30,681.66 490.00,685.08 489.51,687.61 488.81,689.24 487.92,689.98 486.82,689.83 483.96,695.56 490.47,698.07 496.88,699.05 503.18,698.48 509.39,696.38 515.48,692.75">
+        <request index="0" response="0000000000" foes="1000100000" cont="0"/>
+        <request index="1" response="0100000000" foes="0101100000" cont="0"/>
+        <request index="2" response="0100000000" foes="0101100000" cont="0"/>
+        <request index="3" response="0100000000" foes="0100000000" cont="1"/>
+        <request index="4" response="0000000000" foes="0000000000" cont="0"/>
+        <request index="5" response="0100000111" foes="1100000111" cont="0"/>
+        <request index="6" response="0000000110" foes="0000000110" cont="1"/>
+        <request index="7" response="0000000000" foes="0000000000" cont="0"/>
+        <request index="8" response="0000000000" foes="0000101110" cont="0"/>
+        <request index="9" response="0000100001" foes="0000100001" cont="1"/>
+    </junction>
+    <junction id="junction_south" type="priority" x="500.00" y="0.00" incLanes="anna_salai_sb2_0 anna_salai_sb2_1 anna_salai_sb2_2" intLanes=":junction_south_0_0" shape="500.00,-0.00 490.40,-0.00 500.00,-0.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="junction_west" type="priority" x="0.00" y="350.00" incLanes="wallajah_wb2_0 wallajah_wb2_1 connector_uw_0" intLanes=":junction_west_0_0 :junction_west_1_0 :junction_west_1_1" shape="-0.00,356.40 -0.00,350.00 -0.00,346.80">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="kamarajar_north" type="priority" x="200.00" y="700.00" incLanes="kamarajar_nb2_0 kamarajar_nb2_1" intLanes=":kamarajar_north_0_0 :kamarajar_north_0_1" shape="214.12,685.88 209.60,681.35 203.28,680.30 202.67,685.93 203.03,689.68 204.35,691.54 206.64,691.53 209.90,689.65">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="kamarajar_south" type="priority" x="200.00" y="0.00" incLanes="kamarajar_sb2_0 kamarajar_sb2_1" intLanes=":kamarajar_south_0_0 :kamarajar_south_0_1" shape="193.69,1.05 200.00,0.00 204.53,-4.53 200.30,-8.29 197.04,-10.18 194.76,-10.19 193.43,-8.32 193.08,-4.57">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="stadium_north" type="traffic_light" x="700.00" y="500.00" incLanes="stadium_internal_rev_0 stadium_internal_rev_1 stadium_approach_n_0 stadium_approach_n_1" intLanes=":stadium_north_0_0 :stadium_north_0_1 :stadium_north_2_0 :stadium_north_2_1" shape="706.40,497.35 693.60,497.35 702.65,506.40 704.13,504.87 705.16,503.60 705.82,502.41 706.20,501.10 706.36,499.48">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="stadium_south" type="traffic_light" x="700.00" y="200.00" incLanes="stadium_internal_0 stadium_internal_1 stadium_east_entry_0 stadium_east_entry_1 stadium_exit_s_rev_0 stadium_exit_s_rev_1" intLanes=":stadium_south_0_0 :stadium_south_1_0 :stadium_south_11_0 :stadium_south_3_0 :stadium_south_4_0 :stadium_south_4_1 :stadium_south_12_0 :stadium_south_7_0 :stadium_south_7_1 :stadium_south_13_0 :stadium_south_14_0" shape="693.60,216.80 706.40,216.80 706.80,213.42 707.29,212.41 707.99,211.87 708.88,211.78 709.98,212.14 715.70,200.70 710.24,198.54 704.76,197.53 699.27,197.67 693.76,198.95 688.25,201.38 682.72,204.96 690.40,215.20 692.18,214.31 692.80,214.40 693.24,214.84 693.51,215.64">
+        <request index="0"  response="00000110000" foes="00000110000" cont="0"/>
+        <request index="1"  response="01110110000" foes="01111110000" cont="0"/>
+        <request index="2"  response="01000000000" foes="01000000000" cont="1"/>
+        <request index="3"  response="00000000000" foes="00000000000" cont="0"/>
+        <request index="4"  response="00000000000" foes="11000000011" cont="0"/>
+        <request index="5"  response="00000000000" foes="11000000011" cont="0"/>
+        <request index="6"  response="00110000010" foes="00110000010" cont="1"/>
+        <request index="7"  response="00000000000" foes="00001000010" cont="0"/>
+        <request index="8"  response="00000000000" foes="00001000010" cont="0"/>
+        <request index="9"  response="00000110000" foes="00000110110" cont="1"/>
+        <request index="10" response="00000110000" foes="00000110000" cont="1"/>
+    </junction>
+    <junction id="uni_east" type="traffic_light" x="500.00" y="350.00" incLanes="uni_south_to_east_0 uni_entrance_in_0 uni_entrance_in_1 uni_from_east_0" intLanes=":uni_east_0_0 :uni_east_1_0 :uni_east_9_0 :uni_east_3_0 :uni_east_4_0 :uni_east_10_0 :uni_east_6_0 :uni_east_7_0 :uni_east_11_0" shape="498.21,342.64 490.87,349.92 491.20,355.88 496.20,359.87 498.45,356.65 499.93,353.57 500.65,350.63 500.60,347.83 499.79,345.16">
+        <request index="0" response="000010000" foes="100010000" cont="0"/>
+        <request index="1" response="010010000" foes="010110000" cont="0"/>
+        <request index="2" response="010001000" foes="010001000" cont="1"/>
+        <request index="3" response="000000000" foes="010000100" cont="0"/>
+        <request index="4" response="000000000" foes="110000011" cont="0"/>
+        <request index="5" response="000000010" foes="000000010" cont="1"/>
+        <request index="6" response="000000000" foes="000000000" cont="0"/>
+        <request index="7" response="000011000" foes="000011110" cont="0"/>
+        <request index="8" response="000010001" foes="000010001" cont="1"/>
+    </junction>
+    <junction id="uni_north" type="traffic_light" x="300.00" y="600.00" incLanes="uni_north_conn_rev_0 uni_to_east_0 uni_internal_sn_0 kamarajar_sb_0 kamarajar_sb_1" intLanes=":uni_north_0_0 :uni_north_1_0 :uni_north_16_0 :uni_north_17_0 :uni_north_4_0 :uni_north_5_0 :uni_north_6_0 :uni_north_18_0 :uni_north_8_0 :uni_north_9_0 :uni_north_19_0 :uni_north_20_0 :uni_north_12_0 :uni_north_13_0 :uni_north_14_0 :uni_north_15_0" shape="305.69,606.42 308.55,600.70 307.20,598.91 307.30,597.57 307.91,595.93 309.05,593.99 310.70,591.75 305.70,587.75 304.31,587.93 303.82,586.58 303.48,584.27 303.27,581.01 303.20,576.80 296.80,576.80 296.14,576.85 289.83,577.91 290.76,584.07 291.35,589.28 291.60,593.55 291.50,596.87 291.05,599.25 290.26,600.69 294.79,605.21 297.25,604.09 298.93,604.10 300.89,604.49 303.14,605.27">
+        <request index="0"  response="1111000000000000" foes="1111000000000000" cont="0"/>
+        <request index="1"  response="1110000001100000" foes="1110110001100000" cont="0"/>
+        <request index="2"  response="1100001101100000" foes="1100001111100000" cont="1"/>
+        <request index="3"  response="1000001000010000" foes="1000001000010000" cont="1"/>
+        <request index="4"  response="0000000000000000" foes="1000001000001000" cont="0"/>
+        <request index="5"  response="0110010000000100" foes="0110011000000110" cont="0"/>
+        <request index="6"  response="0110010000000100" foes="0110111000000110" cont="0"/>
+        <request index="7"  response="0100000100000100" foes="0100000100000100" cont="1"/>
+        <request index="8"  response="0100000000000000" foes="0100000010000100" cont="0"/>
+        <request index="9"  response="1100000001110000" foes="1100000001111100" cont="0"/>
+        <request index="10" response="0010000001100010" foes="0010000001100010" cont="1"/>
+        <request index="11" response="0010000001000010" foes="0010000001000010" cont="1"/>
+        <request index="12" response="0000000000000000" foes="0000000000000001" cont="0"/>
+        <request index="13" response="0000010000000000" foes="0000110001100011" cont="0"/>
+        <request index="14" response="0000000000000100" foes="0000001111100111" cont="0"/>
+        <request index="15" response="0000000000010100" foes="0000001000011111" cont="0"/>
+    </junction>
+    <junction id="uni_south" type="traffic_light" x="300.00" y="100.00" incLanes="uni_internal_ns_0 uni_east_to_south_0 kamarajar_nb_0 kamarajar_nb_1" intLanes=":uni_south_0_0 :uni_south_1_0 :uni_south_9_0 :uni_south_3_0 :uni_south_4_0 :uni_south_10_0 :uni_south_6_0 :uni_south_7_0 :uni_south_8_0" shape="296.80,142.04 299.34,142.88 300.00,142.93 303.20,142.93 303.24,134.54 303.39,126.79 303.67,120.20 304.13,115.24 304.79,112.43 305.70,112.25 310.70,108.25 307.91,104.37 306.18,101.25 304.94,98.54 303.63,95.90 301.67,92.98 298.50,89.45 293.97,93.97 300.09,101.77 302.27,108.65 301.77,115.36 299.85,122.66 297.77,131.30">
+        <request index="0" response="100010000" foes="100010000" cont="0"/>
+        <request index="1" response="111000000" foes="111100000" cont="0"/>
+        <request index="2" response="110011000" foes="110011000" cont="1"/>
+        <request index="3" response="000000000" foes="010000100" cont="0"/>
+        <request index="4" response="000000000" foes="010000101" cont="0"/>
+        <request index="5" response="001000010" foes="001000010" cont="1"/>
+        <request index="6" response="000000000" foes="000100010" cont="0"/>
+        <request index="7" response="000011000" foes="000011110" cont="0"/>
+        <request index="8" response="000000000" foes="000000111" cont="0"/>
+    </junction>
+    <junction id="uni_west" type="priority" x="100.00" y="350.00" incLanes="connector_uw_rev_0" intLanes=":uni_west_0_0" shape="100.00,350.00 100.00,346.80 100.00,350.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+
+    <junction id=":junction_main_44_0" type="internal" x="499.09" y="352.01" incLanes=":junction_main_4_0 anna_salai_nb_0 anna_salai_nb_1 anna_salai_nb_2" intLanes=":junction_main_8_0 :junction_main_10_0 :junction_main_10_1 :junction_main_12_0 :junction_main_13_0 :junction_main_16_0 :junction_main_18_0 :junction_main_18_1 :junction_main_20_0 :junction_main_21_0 :junction_main_22_0 :junction_main_23_0 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_32_0 :junction_main_33_0 :junction_main_33_1 :junction_main_36_0 :junction_main_38_0 :junction_main_41_0 :junction_main_42_0"/>
+    <junction id=":junction_main_45_0" type="internal" x="499.14" y="357.90" incLanes=":junction_main_5_0 anna_salai_nb_0 anna_salai_nb_1 anna_salai_nb_2" intLanes=":junction_main_8_0 :junction_main_10_0 :junction_main_10_1 :junction_main_12_0 :junction_main_13_0 :junction_main_14_0 :junction_main_15_0 :junction_main_17_0 :junction_main_23_0 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_33_0 :junction_main_33_1 :junction_main_36_0 :junction_main_38_0 :junction_main_42_0"/>
+    <junction id=":junction_main_46_0" type="internal" x="499.20" y="359.20" incLanes=":junction_main_7_0 anna_salai_nb_1 anna_salai_nb_2 stadium_exit_s_0 uni_entrance_out_0 wallajah_eb_1 wallajah_wb_0" intLanes=":junction_main_9_0 :junction_main_17_0 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_36_0 :junction_main_38_0"/>
+    <junction id=":junction_main_47_0" type="internal" x="517.30" y="350.89" incLanes=":junction_main_12_0 wallajah_eb_0 wallajah_eb_1" intLanes=":junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_4_0 :junction_main_5_0 :junction_main_16_0 :junction_main_17_0 :junction_main_18_0 :junction_main_18_1 :junction_main_20_0 :junction_main_24_0 :junction_main_24_1 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_29_0 :junction_main_30_0 :junction_main_31_0 :junction_main_32_0 :junction_main_33_0 :junction_main_33_1 :junction_main_40_0 :junction_main_41_0 :junction_main_42_0"/>
+    <junction id=":junction_main_48_0" type="internal" x="520.68" y="350.86" incLanes=":junction_main_13_0 wallajah_eb_0 wallajah_eb_1" intLanes=":junction_main_4_0 :junction_main_5_0 :junction_main_16_0 :junction_main_17_0 :junction_main_18_0 :junction_main_18_1 :junction_main_20_0 :junction_main_21_0 :junction_main_22_0 :junction_main_23_0 :junction_main_32_0 :junction_main_33_0 :junction_main_33_1 :junction_main_41_0 :junction_main_42_0"/>
+    <junction id=":junction_main_49_0" type="internal" x="522.00" y="350.80" incLanes=":junction_main_14_0 anna_salai_nb_0 anna_salai_sb_2 stadium_exit_s_0 uni_entrance_out_1 wallajah_eb_0 wallajah_eb_1" intLanes=":junction_main_5_0 :junction_main_15_0 :junction_main_23_0 :junction_main_33_0 :junction_main_33_1 :junction_main_42_0"/>
+    <junction id=":junction_main_50_0" type="internal" x="515.92" y="339.20" incLanes=":junction_main_20_0 uni_entrance_out_1" intLanes=":junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_4_0 :junction_main_12_0 :junction_main_13_0 :junction_main_23_0 :junction_main_24_0 :junction_main_24_1 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_29_0 :junction_main_30_0 :junction_main_31_0 :junction_main_32_0 :junction_main_40_0 :junction_main_41_0"/>
+    <junction id=":junction_main_51_0" type="internal" x="518.08" y="337.44" incLanes=":junction_main_21_0 anna_salai_nb_0 anna_salai_sb_1 uni_entrance_out_1 wallajah_eb_0 wallajah_wb_1" intLanes=":junction_main_4_0 :junction_main_13_0 :junction_main_22_0 :junction_main_32_0 :junction_main_41_0"/>
+    <junction id=":junction_main_52_0" type="internal" x="500.27" y="340.76" incLanes=":junction_main_29_0 anna_salai_sb_0 anna_salai_sb_1" intLanes=":junction_main_0_0 :junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_10_0 :junction_main_10_1 :junction_main_12_0 :junction_main_18_0 :junction_main_18_1 :junction_main_20_0 :junction_main_32_0 :junction_main_33_0 :junction_main_33_1 :junction_main_35_0 :junction_main_36_0 :junction_main_37_0 :junction_main_39_0 :junction_main_40_0"/>
+    <junction id=":junction_main_53_0" type="internal" x="500.80" y="332.00" incLanes=":junction_main_30_0 anna_salai_sb_0 anna_salai_sb_1 stadium_exit_s_1 uni_entrance_out_1 wallajah_eb_0 wallajah_wb_1" intLanes=":junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_12_0 :junction_main_20_0 :junction_main_31_0 :junction_main_40_0"/>
+    <junction id=":junction_main_54_0" type="internal" x="492.66" y="349.11" incLanes=":junction_main_36_0 wallajah_wb_0 wallajah_wb_1" intLanes=":junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_4_0 :junction_main_5_0 :junction_main_6_0 :junction_main_7_0 :junction_main_8_0 :junction_main_9_0 :junction_main_10_0 :junction_main_10_1 :junction_main_16_0 :junction_main_17_0 :junction_main_18_0 :junction_main_18_1 :junction_main_24_0 :junction_main_24_1 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_29_0 :junction_main_38_0 :junction_main_40_0 :junction_main_41_0 :junction_main_42_0"/>
+    <junction id=":junction_main_55_0" type="internal" x="487.60" y="349.20" incLanes=":junction_main_37_0 anna_salai_nb_2 anna_salai_sb_0 stadium_exit_s_0 stadium_exit_s_1 uni_entrance_out_0 wallajah_wb_0 wallajah_wb_1" intLanes=":junction_main_0_0 :junction_main_10_0 :junction_main_10_1 :junction_main_18_0 :junction_main_18_1 :junction_main_29_0 :junction_main_39_0"/>
+    <junction id=":junction_main_56_0" type="internal" x="498.54" y="350.72" incLanes=":junction_main_40_0 stadium_exit_s_0 stadium_exit_s_1" intLanes=":junction_main_0_0 :junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_4_0 :junction_main_6_0 :junction_main_10_0 :junction_main_10_1 :junction_main_12_0 :junction_main_18_0 :junction_main_18_1 :junction_main_20_0 :junction_main_29_0 :junction_main_30_0 :junction_main_31_0 :junction_main_32_0 :junction_main_33_0 :junction_main_33_1 :junction_main_35_0 :junction_main_36_0"/>
+    <junction id=":junction_main_57_0" type="internal" x="498.91" y="351.01" incLanes=":junction_main_41_0 stadium_exit_s_0 stadium_exit_s_1" intLanes=":junction_main_0_0 :junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_4_0 :junction_main_10_0 :junction_main_10_1 :junction_main_12_0 :junction_main_13_0 :junction_main_18_0 :junction_main_18_1 :junction_main_20_0 :junction_main_21_0 :junction_main_22_0 :junction_main_23_0 :junction_main_24_0 :junction_main_24_1 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_32_0 :junction_main_33_0 :junction_main_33_1 :junction_main_35_0 :junction_main_36_0"/>
+    <junction id=":junction_main_58_0" type="internal" x="506.16" y="349.42" incLanes=":junction_main_42_0 stadium_exit_s_0" intLanes=":junction_main_0_0 :junction_main_1_0 :junction_main_1_1 :junction_main_1_2 :junction_main_4_0 :junction_main_5_0 :junction_main_6_0 :junction_main_10_0 :junction_main_10_1 :junction_main_12_0 :junction_main_13_0 :junction_main_14_0 :junction_main_15_0 :junction_main_16_0 :junction_main_17_0 :junction_main_23_0 :junction_main_24_0 :junction_main_24_1 :junction_main_26_0 :junction_main_26_1 :junction_main_26_2 :junction_main_33_0 :junction_main_33_1 :junction_main_35_0 :junction_main_36_0"/>
+    <junction id=":junction_main_59_0" type="internal" x="498.86" y="348.85" incLanes=":junction_main_43_0 anna_salai_nb_0 anna_salai_nb_1 anna_salai_sb_2 stadium_exit_s_0 wallajah_eb_1 wallajah_wb_0" intLanes=":junction_main_6_0 :junction_main_8_0 :junction_main_16_0 :junction_main_24_0 :junction_main_24_1 :junction_main_35_0"/>
+    <junction id=":junction_north_10_0" type="internal" x="515.82" y="684.18" incLanes=":junction_north_3_0 anna_salai_nb2_0 uni_north_conn_0" intLanes=":junction_north_4_0 :junction_north_8_0"/>
+    <junction id=":junction_north_11_0" type="internal" x="500.00" y="678.95" incLanes=":junction_north_6_0 stadium_approach_n_rev_1 uni_north_conn_0" intLanes=":junction_north_1_0 :junction_north_1_1 :junction_north_7_0"/>
+    <junction id=":junction_north_12_0" type="internal" x="486.75" y="692.39" incLanes=":junction_north_9_0 anna_salai_nb2_1 stadium_approach_n_rev_0" intLanes=":junction_north_0_0 :junction_north_5_0"/>
+    <junction id=":stadium_south_11_0" type="internal" x="700.00" y="215.20" incLanes=":stadium_south_2_0 stadium_east_entry_0 stadium_exit_s_rev_1" intLanes=":stadium_south_3_0 :stadium_south_9_0"/>
+    <junction id=":stadium_south_12_0" type="internal" x="711.48" y="206.72" incLanes=":stadium_south_6_0 stadium_exit_s_rev_0 stadium_exit_s_rev_1 stadium_internal_1" intLanes=":stadium_south_1_0 :stadium_south_7_0 :stadium_south_7_1"/>
+    <junction id=":stadium_south_13_0" type="internal" x="691.09" y="206.30" incLanes=":stadium_south_9_0 stadium_east_entry_0 stadium_east_entry_1" intLanes=":stadium_south_1_0 :stadium_south_2_0 :stadium_south_3_0 :stadium_south_4_0 :stadium_south_4_1"/>
+    <junction id=":stadium_south_14_0" type="internal" x="687.04" y="208.72" incLanes=":stadium_south_10_0 stadium_east_entry_0 stadium_east_entry_1 stadium_internal_0" intLanes=":stadium_south_0_0 :stadium_south_4_0 :stadium_south_4_1"/>
+    <junction id=":uni_east_9_0" type="internal" x="497.19" y="344.38" incLanes=":uni_east_2_0 uni_entrance_in_0 uni_from_east_0" intLanes=":uni_east_3_0 :uni_east_7_0"/>
+    <junction id=":uni_east_10_0" type="internal" x="501.26" y="351.26" incLanes=":uni_east_5_0 uni_from_east_0 uni_south_to_east_0" intLanes=":uni_east_1_0 :uni_east_6_0"/>
+    <junction id=":uni_east_11_0" type="internal" x="493.73" y="356.47" incLanes=":uni_east_8_0 uni_entrance_in_1 uni_south_to_east_0" intLanes=":uni_east_0_0 :uni_east_4_0"/>
+    <junction id=":uni_north_16_0" type="internal" x="302.27" y="599.33" incLanes=":uni_north_2_0 uni_internal_sn_0" intLanes=":uni_north_5_0 :uni_north_6_0 :uni_north_7_0 :uni_north_8_0 :uni_north_9_0 :uni_north_14_0 :uni_north_15_0"/>
+    <junction id=":uni_north_17_0" type="internal" x="305.69" y="603.74" incLanes=":uni_north_3_0 kamarajar_sb_1 uni_internal_sn_0 uni_to_east_0" intLanes=":uni_north_4_0 :uni_north_9_0 :uni_north_15_0"/>
+    <junction id=":uni_north_18_0" type="internal" x="308.07" y="591.19" incLanes=":uni_north_7_0 kamarajar_sb_0 uni_internal_sn_0 uni_north_conn_rev_0" intLanes=":uni_north_2_0 :uni_north_8_0 :uni_north_14_0"/>
+    <junction id=":uni_north_19_0" type="internal" x="300.88" y="578.40" incLanes=":uni_north_10_0 uni_north_conn_rev_0" intLanes=":uni_north_0_0 :uni_north_1_0 :uni_north_5_0 :uni_north_6_0 :uni_north_12_0 :uni_north_13_0"/>
+    <junction id=":uni_north_20_0" type="internal" x="300.80" y="578.00" incLanes=":uni_north_11_0 kamarajar_sb_0 uni_north_conn_rev_0 uni_to_east_0" intLanes=":uni_north_1_0 :uni_north_6_0 :uni_north_13_0"/>
+    <junction id=":uni_south_9_0" type="internal" x="299.34" y="141.46" incLanes=":uni_south_2_0 kamarajar_nb_1 uni_east_to_south_0" intLanes=":uni_south_3_0 :uni_south_4_0 :uni_south_7_0 :uni_south_8_0"/>
+    <junction id=":uni_south_10_0" type="internal" x="306.87" y="110.35" incLanes=":uni_south_5_0 kamarajar_nb_0 uni_internal_ns_0" intLanes=":uni_south_1_0 :uni_south_6_0"/>
+
+    <connection from="anna_salai_nb" to="stadium_exit_s_rev" fromLane="0" toLane="0" via=":junction_main_22_0" tl="junction_main" linkIndex="22" dir="r" state="O"/>
+    <connection from="anna_salai_nb" to="wallajah_eb2" fromLane="0" toLane="0" via=":junction_main_23_0" tl="junction_main" linkIndex="23" dir="R" state="O"/>
+    <connection from="anna_salai_nb" to="uni_entrance_in" fromLane="0" toLane="0" via=":junction_main_24_0" tl="junction_main" linkIndex="24" dir="R" state="o"/>
+    <connection from="anna_salai_nb" to="uni_entrance_in" fromLane="1" toLane="1" via=":junction_main_24_1" tl="junction_main" linkIndex="25" dir="R" state="o"/>
+    <connection from="anna_salai_nb" to="anna_salai_nb2" fromLane="1" toLane="0" via=":junction_main_26_0" tl="junction_main" linkIndex="26" dir="s" state="O"/>
+    <connection from="anna_salai_nb" to="anna_salai_nb2" fromLane="2" toLane="1" via=":junction_main_26_1" tl="junction_main" linkIndex="27" dir="s" state="O"/>
+    <connection from="anna_salai_nb" to="anna_salai_nb2" fromLane="2" toLane="2" via=":junction_main_26_2" tl="junction_main" linkIndex="28" dir="s" state="O"/>
+    <connection from="anna_salai_nb" to="wallajah_wb2" fromLane="2" toLane="1" via=":junction_main_29_0" tl="junction_main" linkIndex="29" dir="l" state="o"/>
+    <connection from="anna_salai_nb" to="anna_salai_sb2" fromLane="2" toLane="2" via=":junction_main_30_0" tl="junction_main" linkIndex="30" dir="t" state="o"/>
+    <connection from="anna_salai_nb2" to="stadium_approach_n" fromLane="0" toLane="0" via=":junction_north_4_0" tl="junction_north" linkIndex="4" dir="r" state="O"/>
+    <connection from="anna_salai_nb2" to="uni_north_conn_rev" fromLane="1" toLane="0" via=":junction_north_5_0" tl="junction_north" linkIndex="5" dir="l" state="o"/>
+    <connection from="anna_salai_nb2" to="anna_salai_sb" fromLane="2" toLane="2" via=":junction_north_6_0" tl="junction_north" linkIndex="6" dir="t" state="o"/>
+    <connection from="anna_salai_sb" to="wallajah_wb2" fromLane="0" toLane="0" via=":junction_main_0_0" tl="junction_main" linkIndex="0" dir="R" state="O"/>
+    <connection from="anna_salai_sb" to="anna_salai_sb2" fromLane="0" toLane="0" via=":junction_main_1_0" tl="junction_main" linkIndex="1" dir="s" state="O"/>
+    <connection from="anna_salai_sb" to="anna_salai_sb2" fromLane="1" toLane="1" via=":junction_main_1_1" tl="junction_main" linkIndex="2" dir="s" state="O"/>
+    <connection from="anna_salai_sb" to="anna_salai_sb2" fromLane="1" toLane="2" via=":junction_main_1_2" tl="junction_main" linkIndex="3" dir="s" state="O"/>
+    <connection from="anna_salai_sb" to="stadium_exit_s_rev" fromLane="1" toLane="1" via=":junction_main_4_0" tl="junction_main" linkIndex="4" dir="L" state="o"/>
+    <connection from="anna_salai_sb" to="wallajah_eb2" fromLane="2" toLane="1" via=":junction_main_5_0" tl="junction_main" linkIndex="5" dir="l" state="o"/>
+    <connection from="anna_salai_sb" to="uni_entrance_in" fromLane="2" toLane="0" via=":junction_main_6_0" tl="junction_main" linkIndex="6" dir="l" state="O"/>
+    <connection from="anna_salai_sb" to="anna_salai_nb2" fromLane="2" toLane="2" via=":junction_main_7_0" tl="junction_main" linkIndex="7" dir="t" state="o"/>
+    <connection from="anna_salai_sb2" to="anna_salai_nb" fromLane="2" toLane="2" via=":junction_south_0_0" dir="t" state="M"/>
+    <connection from="connector_uw" to="wallajah_eb" fromLane="0" toLane="0" via=":junction_west_1_0" dir="l" state="M"/>
+    <connection from="connector_uw" to="wallajah_eb" fromLane="0" toLane="1" via=":junction_west_1_1" dir="l" state="M"/>
+    <connection from="connector_uw_rev" to="connector_uw" fromLane="0" toLane="0" via=":uni_west_0_0" dir="t" state="M"/>
+    <connection from="kamarajar_nb" to="uni_south_to_east" fromLane="0" toLane="0" via=":uni_south_6_0" tl="uni_south" linkIndex="6" dir="s" state="O"/>
+    <connection from="kamarajar_nb" to="uni_internal_sn" fromLane="1" toLane="0" via=":uni_south_7_0" tl="uni_south" linkIndex="7" dir="L" state="o"/>
+    <connection from="kamarajar_nb" to="kamarajar_nb2" fromLane="1" toLane="1" via=":uni_south_8_0" tl="uni_south" linkIndex="8" dir="l" state="O"/>
+    <connection from="kamarajar_nb2" to="kamarajar_sb" fromLane="0" toLane="0" via=":kamarajar_north_0_0" dir="r" state="M"/>
+    <connection from="kamarajar_nb2" to="kamarajar_sb" fromLane="1" toLane="1" via=":kamarajar_north_0_1" dir="r" state="M"/>
+    <connection from="kamarajar_sb" to="kamarajar_sb2" fromLane="0" toLane="0" via=":uni_north_12_0" tl="uni_north" linkIndex="12" dir="r" state="O"/>
+    <connection from="kamarajar_sb" to="uni_internal_ns" fromLane="0" toLane="0" via=":uni_north_13_0" tl="uni_north" linkIndex="13" dir="R" state="O"/>
+    <connection from="kamarajar_sb" to="uni_from_east" fromLane="0" toLane="0" via=":uni_north_14_0" tl="uni_north" linkIndex="14" dir="s" state="O"/>
+    <connection from="kamarajar_sb" to="uni_north_conn" fromLane="1" toLane="0" via=":uni_north_15_0" tl="uni_north" linkIndex="15" dir="l" state="o"/>
+    <connection from="kamarajar_sb2" to="kamarajar_nb" fromLane="0" toLane="0" via=":kamarajar_south_0_0" dir="l" state="M"/>
+    <connection from="kamarajar_sb2" to="kamarajar_nb" fromLane="1" toLane="1" via=":kamarajar_south_0_1" dir="l" state="M"/>
+    <connection from="stadium_approach_n" to="stadium_internal" fromLane="0" toLane="0" via=":stadium_north_2_0" tl="stadium_north" linkIndex="2" dir="r" state="O"/>
+    <connection from="stadium_approach_n" to="stadium_internal" fromLane="1" toLane="1" via=":stadium_north_2_1" tl="stadium_north" linkIndex="3" dir="r" state="O"/>
+    <connection from="stadium_approach_n_rev" to="uni_north_conn_rev" fromLane="0" toLane="0" via=":junction_north_0_0" tl="junction_north" linkIndex="0" dir="L" state="O"/>
+    <connection from="stadium_approach_n_rev" to="anna_salai_sb" fromLane="1" toLane="1" via=":junction_north_1_0" tl="junction_north" linkIndex="1" dir="l" state="o"/>
+    <connection from="stadium_approach_n_rev" to="anna_salai_sb" fromLane="1" toLane="2" via=":junction_north_1_1" tl="junction_north" linkIndex="2" dir="l" state="o"/>
+    <connection from="stadium_approach_n_rev" to="stadium_approach_n" fromLane="1" toLane="1" via=":junction_north_3_0" tl="junction_north" linkIndex="3" dir="t" state="o"/>
+    <connection from="stadium_east_entry" to="stadium_internal_rev" fromLane="0" toLane="0" via=":stadium_south_3_0" tl="stadium_south" linkIndex="3" dir="r" state="O"/>
+    <connection from="stadium_east_entry" to="stadium_exit_s" fromLane="0" toLane="0" via=":stadium_south_4_0" tl="stadium_south" linkIndex="4" dir="R" state="O"/>
+    <connection from="stadium_east_entry" to="stadium_exit_s" fromLane="1" toLane="1" via=":stadium_south_4_1" tl="stadium_south" linkIndex="5" dir="R" state="O"/>
+    <connection from="stadium_east_entry" to="stadium_east_exit" fromLane="1" toLane="1" via=":stadium_south_6_0" tl="stadium_south" linkIndex="6" dir="t" state="o"/>
+    <connection from="stadium_east_exit" to="wallajah_wb" fromLane="0" toLane="0" via=":junction_east_0_0" dir="l" state="M"/>
+    <connection from="stadium_east_exit" to="wallajah_wb" fromLane="1" toLane="1" via=":junction_east_0_1" dir="l" state="M"/>
+    <connection from="stadium_exit_s" to="wallajah_eb2" fromLane="0" toLane="0" via=":junction_main_15_0" tl="junction_main" linkIndex="15" dir="r" state="o"/>
+    <connection from="stadium_exit_s" to="uni_entrance_in" fromLane="0" toLane="1" via=":junction_main_16_0" tl="junction_main" linkIndex="16" dir="r" state="o"/>
+    <connection from="stadium_exit_s" to="anna_salai_nb2" fromLane="0" toLane="0" via=":junction_main_17_0" tl="junction_main" linkIndex="17" dir="R" state="o"/>
+    <connection from="stadium_exit_s" to="wallajah_wb2" fromLane="0" toLane="0" via=":junction_main_18_0" tl="junction_main" linkIndex="18" dir="s" state="o"/>
+    <connection from="stadium_exit_s" to="wallajah_wb2" fromLane="1" toLane="1" via=":junction_main_18_1" tl="junction_main" linkIndex="19" dir="s" state="o"/>
+    <connection from="stadium_exit_s" to="anna_salai_sb2" fromLane="1" toLane="2" via=":junction_main_20_0" tl="junction_main" linkIndex="20" dir="l" state="o"/>
+    <connection from="stadium_exit_s" to="stadium_exit_s_rev" fromLane="1" toLane="1" via=":junction_main_21_0" tl="junction_main" linkIndex="21" dir="t" state="o"/>
+    <connection from="stadium_exit_s_rev" to="stadium_east_exit" fromLane="0" toLane="0" via=":stadium_south_7_0" tl="stadium_south" linkIndex="7" dir="L" state="O"/>
+    <connection from="stadium_exit_s_rev" to="stadium_east_exit" fromLane="1" toLane="1" via=":stadium_south_7_1" tl="stadium_south" linkIndex="8" dir="L" state="O"/>
+    <connection from="stadium_exit_s_rev" to="stadium_internal_rev" fromLane="1" toLane="1" via=":stadium_south_9_0" tl="stadium_south" linkIndex="9" dir="l" state="o"/>
+    <connection from="stadium_exit_s_rev" to="stadium_exit_s" fromLane="1" toLane="1" via=":stadium_south_10_0" tl="stadium_south" linkIndex="10" dir="t" state="o"/>
+    <connection from="stadium_internal" to="stadium_exit_s" fromLane="0" toLane="0" via=":stadium_south_0_0" tl="stadium_south" linkIndex="0" dir="r" state="o"/>
+    <connection from="stadium_internal" to="stadium_east_exit" fromLane="1" toLane="1" via=":stadium_south_1_0" tl="stadium_south" linkIndex="1" dir="l" state="o"/>
+    <connection from="stadium_internal" to="stadium_internal_rev" fromLane="1" toLane="1" via=":stadium_south_2_0" tl="stadium_south" linkIndex="2" dir="t" state="o"/>
+    <connection from="stadium_internal_rev" to="stadium_approach_n_rev" fromLane="0" toLane="0" via=":stadium_north_0_0" tl="stadium_north" linkIndex="0" dir="l" state="O"/>
+    <connection from="stadium_internal_rev" to="stadium_approach_n_rev" fromLane="1" toLane="1" via=":stadium_north_0_1" tl="stadium_north" linkIndex="1" dir="l" state="O"/>
+    <connection from="uni_east_to_south" to="uni_internal_sn" fromLane="0" toLane="0" via=":uni_south_3_0" tl="uni_south" linkIndex="3" dir="r" state="O"/>
+    <connection from="uni_east_to_south" to="kamarajar_nb2" fromLane="0" toLane="0" via=":uni_south_4_0" tl="uni_south" linkIndex="4" dir="r" state="O"/>
+    <connection from="uni_east_to_south" to="uni_south_to_east" fromLane="0" toLane="0" via=":uni_south_5_0" tl="uni_south" linkIndex="5" dir="t" state="o"/>
+    <connection from="uni_entrance_in" to="uni_east_to_south" fromLane="0" toLane="0" via=":uni_east_3_0" tl="uni_east" linkIndex="3" dir="r" state="O"/>
+    <connection from="uni_entrance_in" to="uni_to_east" fromLane="1" toLane="0" via=":uni_east_4_0" tl="uni_east" linkIndex="4" dir="l" state="O"/>
+    <connection from="uni_entrance_in" to="uni_entrance_out" fromLane="1" toLane="1" via=":uni_east_5_0" tl="uni_east" linkIndex="5" dir="t" state="o"/>
+    <connection from="uni_entrance_out" to="anna_salai_nb2" fromLane="0" toLane="2" via=":junction_main_38_0" tl="junction_main" linkIndex="38" dir="r" state="o"/>
+    <connection from="uni_entrance_out" to="wallajah_wb2" fromLane="0" toLane="0" via=":junction_main_39_0" tl="junction_main" linkIndex="39" dir="r" state="o"/>
+    <connection from="uni_entrance_out" to="anna_salai_sb2" fromLane="1" toLane="0" via=":junction_main_40_0" tl="junction_main" linkIndex="40" dir="L" state="o"/>
+    <connection from="uni_entrance_out" to="stadium_exit_s_rev" fromLane="1" toLane="1" via=":junction_main_41_0" tl="junction_main" linkIndex="41" dir="l" state="o"/>
+    <connection from="uni_entrance_out" to="wallajah_eb2" fromLane="1" toLane="1" via=":junction_main_42_0" tl="junction_main" linkIndex="42" dir="l" state="o"/>
+    <connection from="uni_entrance_out" to="uni_entrance_in" fromLane="1" toLane="1" via=":junction_main_43_0" tl="junction_main" linkIndex="43" dir="t" state="o"/>
+    <connection from="uni_from_east" to="uni_entrance_out" fromLane="0" toLane="0" via=":uni_east_6_0" tl="uni_east" linkIndex="6" dir="r" state="O"/>
+    <connection from="uni_from_east" to="uni_east_to_south" fromLane="0" toLane="0" via=":uni_east_7_0" tl="uni_east" linkIndex="7" dir="R" state="o"/>
+    <connection from="uni_from_east" to="uni_to_east" fromLane="0" toLane="0" via=":uni_east_8_0" tl="uni_east" linkIndex="8" dir="t" state="o"/>
+    <connection from="uni_internal_ns" to="kamarajar_nb2" fromLane="0" toLane="1" via=":uni_south_0_0" tl="uni_south" linkIndex="0" dir="r" state="o"/>
+    <connection from="uni_internal_ns" to="uni_south_to_east" fromLane="0" toLane="0" via=":uni_south_1_0" tl="uni_south" linkIndex="1" dir="l" state="o"/>
+    <connection from="uni_internal_ns" to="uni_internal_sn" fromLane="0" toLane="0" via=":uni_south_2_0" tl="uni_south" linkIndex="2" dir="t" state="o"/>
+    <connection from="uni_internal_sn" to="uni_from_east" fromLane="0" toLane="0" via=":uni_north_8_0" tl="uni_north" linkIndex="8" dir="r" state="o"/>
+    <connection from="uni_internal_sn" to="uni_north_conn" fromLane="0" toLane="0" via=":uni_north_9_0" tl="uni_north" linkIndex="9" dir="R" state="o"/>
+    <connection from="uni_internal_sn" to="kamarajar_sb2" fromLane="0" toLane="1" via=":uni_north_10_0" tl="uni_north" linkIndex="10" dir="l" state="o"/>
+    <connection from="uni_internal_sn" to="uni_internal_ns" fromLane="0" toLane="0" via=":uni_north_11_0" tl="uni_north" linkIndex="11" dir="t" state="o"/>
+    <connection from="uni_north_conn" to="anna_salai_sb" fromLane="0" toLane="0" via=":junction_north_7_0" tl="junction_north" linkIndex="7" dir="r" state="O"/>
+    <connection from="uni_north_conn" to="stadium_approach_n" fromLane="0" toLane="1" via=":junction_north_8_0" tl="junction_north" linkIndex="8" dir="R" state="O"/>
+    <connection from="uni_north_conn" to="uni_north_conn_rev" fromLane="0" toLane="0" via=":junction_north_9_0" tl="junction_north" linkIndex="9" dir="t" state="o"/>
+    <connection from="uni_north_conn_rev" to="kamarajar_sb2" fromLane="0" toLane="0" via=":uni_north_0_0" tl="uni_north" linkIndex="0" dir="L" state="o"/>
+    <connection from="uni_north_conn_rev" to="uni_internal_ns" fromLane="0" toLane="0" via=":uni_north_1_0" tl="uni_north" linkIndex="1" dir="L" state="o"/>
+    <connection from="uni_north_conn_rev" to="uni_from_east" fromLane="0" toLane="0" via=":uni_north_2_0" tl="uni_north" linkIndex="2" dir="l" state="o"/>
+    <connection from="uni_north_conn_rev" to="uni_north_conn" fromLane="0" toLane="0" via=":uni_north_3_0" tl="uni_north" linkIndex="3" dir="t" state="o"/>
+    <connection from="uni_south_to_east" to="uni_to_east" fromLane="0" toLane="0" via=":uni_east_0_0" tl="uni_east" linkIndex="0" dir="L" state="o"/>
+    <connection from="uni_south_to_east" to="uni_entrance_out" fromLane="0" toLane="1" via=":uni_east_1_0" tl="uni_east" linkIndex="1" dir="l" state="o"/>
+    <connection from="uni_south_to_east" to="uni_east_to_south" fromLane="0" toLane="0" via=":uni_east_2_0" tl="uni_east" linkIndex="2" dir="t" state="o"/>
+    <connection from="uni_to_east" to="uni_north_conn" fromLane="0" toLane="0" via=":uni_north_4_0" tl="uni_north" linkIndex="4" dir="r" state="O"/>
+    <connection from="uni_to_east" to="kamarajar_sb2" fromLane="0" toLane="1" via=":uni_north_5_0" tl="uni_north" linkIndex="5" dir="l" state="o"/>
+    <connection from="uni_to_east" to="uni_internal_ns" fromLane="0" toLane="0" via=":uni_north_6_0" tl="uni_north" linkIndex="6" dir="l" state="o"/>
+    <connection from="uni_to_east" to="uni_from_east" fromLane="0" toLane="0" via=":uni_north_7_0" tl="uni_north" linkIndex="7" dir="t" state="o"/>
+    <connection from="wallajah_eb" to="anna_salai_sb2" fromLane="0" toLane="0" via=":junction_main_31_0" tl="junction_main" linkIndex="31" dir="r" state="o"/>
+    <connection from="wallajah_eb" to="stadium_exit_s_rev" fromLane="0" toLane="0" via=":junction_main_32_0" tl="junction_main" linkIndex="32" dir="R" state="o"/>
+    <connection from="wallajah_eb" to="wallajah_eb2" fromLane="0" toLane="0" via=":junction_main_33_0" tl="junction_main" linkIndex="33" dir="s" state="o"/>
+    <connection from="wallajah_eb" to="wallajah_eb2" fromLane="1" toLane="1" via=":junction_main_33_1" tl="junction_main" linkIndex="34" dir="s" state="o"/>
+    <connection from="wallajah_eb" to="uni_entrance_in" fromLane="1" toLane="1" via=":junction_main_35_0" tl="junction_main" linkIndex="35" dir="l" state="o"/>
+    <connection from="wallajah_eb" to="anna_salai_nb2" fromLane="1" toLane="2" via=":junction_main_36_0" tl="junction_main" linkIndex="36" dir="L" state="o"/>
+    <connection from="wallajah_eb" to="wallajah_wb2" fromLane="1" toLane="1" via=":junction_main_37_0" tl="junction_main" linkIndex="37" dir="t" state="o"/>
+    <connection from="wallajah_eb2" to="stadium_east_entry" fromLane="0" toLane="0" via=":junction_east_2_0" dir="r" state="M"/>
+    <connection from="wallajah_eb2" to="stadium_east_entry" fromLane="1" toLane="1" via=":junction_east_2_1" dir="r" state="M"/>
+    <connection from="wallajah_wb" to="uni_entrance_in" fromLane="0" toLane="0" via=":junction_main_8_0" tl="junction_main" linkIndex="8" dir="r" state="o"/>
+    <connection from="wallajah_wb" to="anna_salai_nb2" fromLane="0" toLane="0" via=":junction_main_9_0" tl="junction_main" linkIndex="9" dir="r" state="o"/>
+    <connection from="wallajah_wb" to="wallajah_wb2" fromLane="0" toLane="0" via=":junction_main_10_0" tl="junction_main" linkIndex="10" dir="s" state="o"/>
+    <connection from="wallajah_wb" to="wallajah_wb2" fromLane="1" toLane="1" via=":junction_main_10_1" tl="junction_main" linkIndex="11" dir="s" state="o"/>
+    <connection from="wallajah_wb" to="anna_salai_sb2" fromLane="1" toLane="2" via=":junction_main_12_0" tl="junction_main" linkIndex="12" dir="L" state="o"/>
+    <connection from="wallajah_wb" to="stadium_exit_s_rev" fromLane="1" toLane="1" via=":junction_main_13_0" tl="junction_main" linkIndex="13" dir="l" state="o"/>
+    <connection from="wallajah_wb" to="wallajah_eb2" fromLane="1" toLane="1" via=":junction_main_14_0" tl="junction_main" linkIndex="14" dir="t" state="o"/>
+    <connection from="wallajah_wb2" to="connector_uw_rev" fromLane="0" toLane="0" via=":junction_west_0_0" dir="l" state="M"/>
+
+    <connection from=":junction_east_0" to="wallajah_wb" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":junction_east_0" to="wallajah_wb" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":junction_east_2" to="stadium_east_entry" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_east_2" to="stadium_east_entry" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":junction_main_0" to="wallajah_wb2" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":junction_main_1" to="anna_salai_sb2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":junction_main_1" to="anna_salai_sb2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":junction_main_1" to="anna_salai_sb2" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":junction_main_4" to="stadium_exit_s_rev" fromLane="0" toLane="1" via=":junction_main_44_0" dir="L" state="m"/>
+    <connection from=":junction_main_44" to="stadium_exit_s_rev" fromLane="0" toLane="1" dir="L" state="M"/>
+    <connection from=":junction_main_5" to="wallajah_eb2" fromLane="0" toLane="1" via=":junction_main_45_0" dir="l" state="m"/>
+    <connection from=":junction_main_45" to="wallajah_eb2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":junction_main_6" to="uni_entrance_in" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":junction_main_7" to="anna_salai_nb2" fromLane="0" toLane="2" via=":junction_main_46_0" dir="t" state="m"/>
+    <connection from=":junction_main_46" to="anna_salai_nb2" fromLane="0" toLane="2" dir="t" state="M"/>
+    <connection from=":junction_main_8" to="uni_entrance_in" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_main_9" to="anna_salai_nb2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_main_10" to="wallajah_wb2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":junction_main_10" to="wallajah_wb2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":junction_main_12" to="anna_salai_sb2" fromLane="0" toLane="2" via=":junction_main_47_0" dir="L" state="m"/>
+    <connection from=":junction_main_47" to="anna_salai_sb2" fromLane="0" toLane="2" dir="L" state="M"/>
+    <connection from=":junction_main_13" to="stadium_exit_s_rev" fromLane="0" toLane="1" via=":junction_main_48_0" dir="l" state="m"/>
+    <connection from=":junction_main_48" to="stadium_exit_s_rev" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":junction_main_14" to="wallajah_eb2" fromLane="0" toLane="1" via=":junction_main_49_0" dir="t" state="m"/>
+    <connection from=":junction_main_49" to="wallajah_eb2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":junction_main_15" to="wallajah_eb2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_main_16" to="uni_entrance_in" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":junction_main_17" to="anna_salai_nb2" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":junction_main_18" to="wallajah_wb2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":junction_main_18" to="wallajah_wb2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":junction_main_20" to="anna_salai_sb2" fromLane="0" toLane="2" via=":junction_main_50_0" dir="l" state="m"/>
+    <connection from=":junction_main_50" to="anna_salai_sb2" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":junction_main_21" to="stadium_exit_s_rev" fromLane="0" toLane="1" via=":junction_main_51_0" dir="t" state="m"/>
+    <connection from=":junction_main_51" to="stadium_exit_s_rev" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":junction_main_22" to="stadium_exit_s_rev" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_main_23" to="wallajah_eb2" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":junction_main_24" to="uni_entrance_in" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":junction_main_24" to="uni_entrance_in" fromLane="1" toLane="1" dir="R" state="M"/>
+    <connection from=":junction_main_26" to="anna_salai_nb2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":junction_main_26" to="anna_salai_nb2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":junction_main_26" to="anna_salai_nb2" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":junction_main_29" to="wallajah_wb2" fromLane="0" toLane="1" via=":junction_main_52_0" dir="l" state="m"/>
+    <connection from=":junction_main_52" to="wallajah_wb2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":junction_main_30" to="anna_salai_sb2" fromLane="0" toLane="2" via=":junction_main_53_0" dir="t" state="m"/>
+    <connection from=":junction_main_53" to="anna_salai_sb2" fromLane="0" toLane="2" dir="t" state="M"/>
+    <connection from=":junction_main_31" to="anna_salai_sb2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_main_32" to="stadium_exit_s_rev" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":junction_main_33" to="wallajah_eb2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":junction_main_33" to="wallajah_eb2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":junction_main_35" to="uni_entrance_in" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":junction_main_36" to="anna_salai_nb2" fromLane="0" toLane="2" via=":junction_main_54_0" dir="L" state="m"/>
+    <connection from=":junction_main_54" to="anna_salai_nb2" fromLane="0" toLane="2" dir="L" state="M"/>
+    <connection from=":junction_main_37" to="wallajah_wb2" fromLane="0" toLane="1" via=":junction_main_55_0" dir="t" state="m"/>
+    <connection from=":junction_main_55" to="wallajah_wb2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":junction_main_38" to="anna_salai_nb2" fromLane="0" toLane="2" dir="r" state="M"/>
+    <connection from=":junction_main_39" to="wallajah_wb2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_main_40" to="anna_salai_sb2" fromLane="0" toLane="0" via=":junction_main_56_0" dir="L" state="m"/>
+    <connection from=":junction_main_56" to="anna_salai_sb2" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":junction_main_41" to="stadium_exit_s_rev" fromLane="0" toLane="1" via=":junction_main_57_0" dir="l" state="m"/>
+    <connection from=":junction_main_57" to="stadium_exit_s_rev" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":junction_main_42" to="wallajah_eb2" fromLane="0" toLane="1" via=":junction_main_58_0" dir="l" state="m"/>
+    <connection from=":junction_main_58" to="wallajah_eb2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":junction_main_43" to="uni_entrance_in" fromLane="0" toLane="1" via=":junction_main_59_0" dir="t" state="m"/>
+    <connection from=":junction_main_59" to="uni_entrance_in" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":junction_north_0" to="uni_north_conn_rev" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":junction_north_1" to="anna_salai_sb" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":junction_north_1" to="anna_salai_sb" fromLane="1" toLane="2" dir="l" state="M"/>
+    <connection from=":junction_north_3" to="stadium_approach_n" fromLane="0" toLane="1" via=":junction_north_10_0" dir="t" state="m"/>
+    <connection from=":junction_north_10" to="stadium_approach_n" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":junction_north_4" to="stadium_approach_n" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_north_5" to="uni_north_conn_rev" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":junction_north_6" to="anna_salai_sb" fromLane="0" toLane="2" via=":junction_north_11_0" dir="t" state="m"/>
+    <connection from=":junction_north_11" to="anna_salai_sb" fromLane="0" toLane="2" dir="t" state="M"/>
+    <connection from=":junction_north_7" to="anna_salai_sb" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":junction_north_8" to="stadium_approach_n" fromLane="0" toLane="1" dir="R" state="M"/>
+    <connection from=":junction_north_9" to="uni_north_conn_rev" fromLane="0" toLane="0" via=":junction_north_12_0" dir="t" state="m"/>
+    <connection from=":junction_north_12" to="uni_north_conn_rev" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":junction_south_0" to="anna_salai_nb" fromLane="0" toLane="2" dir="t" state="M"/>
+    <connection from=":junction_west_0" to="connector_uw_rev" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":junction_west_1" to="wallajah_eb" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":junction_west_1" to="wallajah_eb" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":kamarajar_north_0" to="kamarajar_sb" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":kamarajar_north_0" to="kamarajar_sb" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":kamarajar_south_0" to="kamarajar_nb" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":kamarajar_south_0" to="kamarajar_nb" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":stadium_north_0" to="stadium_approach_n_rev" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":stadium_north_0" to="stadium_approach_n_rev" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":stadium_north_2" to="stadium_internal" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":stadium_north_2" to="stadium_internal" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":stadium_south_0" to="stadium_exit_s" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":stadium_south_1" to="stadium_east_exit" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":stadium_south_2" to="stadium_internal_rev" fromLane="0" toLane="1" via=":stadium_south_11_0" dir="t" state="m"/>
+    <connection from=":stadium_south_11" to="stadium_internal_rev" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":stadium_south_3" to="stadium_internal_rev" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":stadium_south_4" to="stadium_exit_s" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":stadium_south_4" to="stadium_exit_s" fromLane="1" toLane="1" dir="R" state="M"/>
+    <connection from=":stadium_south_6" to="stadium_east_exit" fromLane="0" toLane="1" via=":stadium_south_12_0" dir="t" state="m"/>
+    <connection from=":stadium_south_12" to="stadium_east_exit" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":stadium_south_7" to="stadium_east_exit" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":stadium_south_7" to="stadium_east_exit" fromLane="1" toLane="1" dir="L" state="M"/>
+    <connection from=":stadium_south_9" to="stadium_internal_rev" fromLane="0" toLane="1" via=":stadium_south_13_0" dir="l" state="m"/>
+    <connection from=":stadium_south_13" to="stadium_internal_rev" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":stadium_south_10" to="stadium_exit_s" fromLane="0" toLane="1" via=":stadium_south_14_0" dir="t" state="m"/>
+    <connection from=":stadium_south_14" to="stadium_exit_s" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":uni_east_0" to="uni_to_east" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":uni_east_1" to="uni_entrance_out" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":uni_east_2" to="uni_east_to_south" fromLane="0" toLane="0" via=":uni_east_9_0" dir="t" state="m"/>
+    <connection from=":uni_east_9" to="uni_east_to_south" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":uni_east_3" to="uni_east_to_south" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":uni_east_4" to="uni_to_east" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":uni_east_5" to="uni_entrance_out" fromLane="0" toLane="1" via=":uni_east_10_0" dir="t" state="m"/>
+    <connection from=":uni_east_10" to="uni_entrance_out" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":uni_east_6" to="uni_entrance_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":uni_east_7" to="uni_east_to_south" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":uni_east_8" to="uni_to_east" fromLane="0" toLane="0" via=":uni_east_11_0" dir="t" state="m"/>
+    <connection from=":uni_east_11" to="uni_to_east" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":uni_north_0" to="kamarajar_sb2" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":uni_north_1" to="uni_internal_ns" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":uni_north_2" to="uni_from_east" fromLane="0" toLane="0" via=":uni_north_16_0" dir="l" state="m"/>
+    <connection from=":uni_north_16" to="uni_from_east" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":uni_north_3" to="uni_north_conn" fromLane="0" toLane="0" via=":uni_north_17_0" dir="t" state="m"/>
+    <connection from=":uni_north_17" to="uni_north_conn" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":uni_north_4" to="uni_north_conn" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":uni_north_5" to="kamarajar_sb2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":uni_north_6" to="uni_internal_ns" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":uni_north_7" to="uni_from_east" fromLane="0" toLane="0" via=":uni_north_18_0" dir="t" state="m"/>
+    <connection from=":uni_north_18" to="uni_from_east" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":uni_north_8" to="uni_from_east" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":uni_north_9" to="uni_north_conn" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":uni_north_10" to="kamarajar_sb2" fromLane="0" toLane="1" via=":uni_north_19_0" dir="l" state="m"/>
+    <connection from=":uni_north_19" to="kamarajar_sb2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":uni_north_11" to="uni_internal_ns" fromLane="0" toLane="0" via=":uni_north_20_0" dir="t" state="m"/>
+    <connection from=":uni_north_20" to="uni_internal_ns" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":uni_north_12" to="kamarajar_sb2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":uni_north_13" to="uni_internal_ns" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":uni_north_14" to="uni_from_east" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":uni_north_15" to="uni_north_conn" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":uni_south_0" to="kamarajar_nb2" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":uni_south_1" to="uni_south_to_east" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":uni_south_2" to="uni_internal_sn" fromLane="0" toLane="0" via=":uni_south_9_0" dir="t" state="m"/>
+    <connection from=":uni_south_9" to="uni_internal_sn" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":uni_south_3" to="uni_internal_sn" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":uni_south_4" to="kamarajar_nb2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":uni_south_5" to="uni_south_to_east" fromLane="0" toLane="0" via=":uni_south_10_0" dir="t" state="m"/>
+    <connection from=":uni_south_10" to="uni_south_to_east" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":uni_south_6" to="uni_south_to_east" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":uni_south_7" to="uni_internal_sn" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":uni_south_8" to="kamarajar_nb2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":uni_west_0" to="connector_uw" fromLane="0" toLane="0" dir="t" state="M"/>
+
+</net>

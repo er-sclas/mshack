@@ -1,0 +1,21 @@
+# FastAPI Backend Requirements
+
+# Web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# Google Cloud Firestore
+google-cloud-firestore>=2.13.0
+google-auth>=2.23.0
+
+# ML dependencies (optional, for LSTM model)
+torch>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+
+# Development
+httpx>=0.25.0  # For async HTTP testing
